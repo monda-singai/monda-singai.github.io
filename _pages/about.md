@@ -21,7 +21,3 @@ Monda can operate a number of different computer controlled (CNC) fabrication to
 * Stereolithography (SLA)
 * Selective Laser Sintering (SLS)
 * 3D Inkjet Printing
-
-## Experience 
-
-(https://www.linkedin.com/in/mwenda-singai/).
