@@ -15,7 +15,7 @@ title                    : "Monda Singai"
 title_separator          : "-"
 subtitle                 : "Website for CHBE 4200"
 name                     : &name "Monda Singai" # &name is a YAML anchor which can be *referenced later
-description              : &description "Example website for class "
+description              : &description "My Exploration in Design"
 url                      : https://monda-singai.github.io/ # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : 
@@ -112,9 +112,9 @@ footer:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/DrD-Flo"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://www.instagram.com/dr.dflo"
+    - label: "Linkedin"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/mwenda-singai/"
 
 
 # Reading Files
