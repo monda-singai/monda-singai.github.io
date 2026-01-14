@@ -6,7 +6,7 @@ title: "About Monda Singai"
 
 ## Education
 
-Monda prides himself on a diverse skill set, with strengths in product design that integrates manufacturing and production considerations.
+Monda approaches product development through a systems lens, integrating design, manufacturing, and lean production considerations.
 
 * Vanderbilt University
   * BS Engineering Science (concentration in Product Realization)
