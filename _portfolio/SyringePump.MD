@@ -3,7 +3,7 @@ title: "Modular Syringe Pump for Low-Flow, High-Precision Applications"
 excerpt: "A fully 3D-printed, Arduino-controlled syringe pump delivering precise, programmable fluid flow with real-time safety feedback."
 header:
   image: /assets/img/Syringe Pump Real Singai.jpg
-  teaser: /assets/img/Syringe Pump Rendering Singai.jpg
+  teaser: /assets/img/Syring Pump Rendering Singai.jpg
 gallery:
   - image_path: assets/img/Syringe Pump Wiring Diagram Singai.jpg
      
@@ -20,7 +20,8 @@ gallery:
 * **3D-Printed Modular Enclosure** All mechanical and electronic components are housed in a custom 3D-printed enclosure designed to minimize fluid exposure, protect users from moving parts, and maintain clean cable management.
 * **Fully Parametric CAD Design in Fusion 360** All custom parts—including the syringe holder, carriage, motor mount, and enclosure—were modeled with fully constrained, parametric sketches to support rapid iteration, tolerance adjustment, and future design scaling.
 
+{% include gallery caption="Modular Syringe Pump for Low-Flow, High-Precision Applications" %}
+
 # CAD Model
 <iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH90d2dQT28d5b602811b83ca271a5617c0c?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
 
-{% include gallery caption="Modular Syringe Pump for Low-Flow, High-Precision Applications" %}
