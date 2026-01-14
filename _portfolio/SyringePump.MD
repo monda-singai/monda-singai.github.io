@@ -2,7 +2,7 @@
 title: "Modular Syringe Pump for Low-Flow, High-Precision Applications"
 excerpt: "A fully 3D-printed, Arduino-controlled syringe pump delivering precise, programmable fluid flow with real-time safety feedback."
 header:
-  image: /assets/img/Syringe Pump Real Singai.jpg
+  image: /assets/img/Syringe Pump Real Singai.png
   teaser: /assets/img/Syring Pump Rendering Singai.jpg
 gallery:
   - image_path: assets/img/Syringe Pump Wiring Diagram Singai.jpg
