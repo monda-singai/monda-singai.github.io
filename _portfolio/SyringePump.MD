@@ -5,7 +5,7 @@ header:
   image: /assets/img/Syringe Pump Real Singai.jpg
   teaser: /assets/img/Syringe Pump Rendering Singai.jpg
 gallery:
-  - image_path: assets/img/Syringe Pump Wiring Diagram.jpg
+  - image_path: assets/img/Syringe Pump Wiring Diagram Singai.jpg
      
 ---
 
