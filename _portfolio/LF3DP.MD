@@ -1,23 +1,26 @@
 ---
-title: "Large Format 3D Printer"
-excerpt: "A 1 kg/hr pellet extruder and 1 cubic meter build envelope for printing furniture."
+title: "Modular Syringe Pump for Low-Flow, High-Precision Applications"
+excerpt: "A fully 3D-printed, Arduino-controlled syringe pump delivering precise, programmable fluid flow with real-time safety feedback."
 header:
-  image: /assets/img/LF3DP-Banner-2.jpg
-  teaser: /assets/img/Large-Format-3D-Printer-Thumbnail.png
+  image: /assets/img/Syringe_Pump_Real_Singai.jpg
+  teaser: /assets/img/Syringe_Pump_Rendering_Singai.jpg
 gallery:
-  - image_path: assets/img/Slide-3.png
-  - image_path: assets/img/Slide-2.png
-  - image_path: assets/img/Slide-4.png
-   
+  - image_path: assets/img/Syringe_Pump_Wiring_Diagram.jpg
+     
 ---
 
 # Features
 
-* **Massive Print Area: 1140 x 1200 x 1100 mm.** With a build envelop just shy of 4 feet in all dimensions, the LF3DP is capable of printing furniture and other large objects.
-* **High Volumetric Output Extruder: 1 kg/hr - 450 C.** This printer come standard with a MDPH2 extruder by Massive Dimension, which can extrude at a rate of 1 kg/hr. Unlike typical filament extruders, the MDPH2 uses a screw to convey and liquify plastic pellets before the molten material is pushed out of a large nozzle (1 to 5 mm extrusion diameter). Please note: This printer can also be configured for other high flow rate extruders, such as the Typhoon and Pulsar by Dyze Design.
-* **Affordable Pellet Feedstock** Pellets are the cheapest form of feedstock for any plastic-based manufacturing process. Save 50-75% of material costs by using pellets instead of spools of filament. Concentrated colorant can be added to the virgin material to achieve any color in the rainbow without requiring large amounts of storage. Recyled material can also be used for sustainable material printing.
+* **Precision-Controlled Fluid Delivery** The syringe pump delivers accurate, continuous flow across a wide operating range using a stepper motor–driven lead screw and microstepping control. Flow rate is calculated in software based on syringe diameter, lead screw pitch, and motor resolution to ensure consistent volumetric output.
+* **Multi-Syringe Compatibility** The mechanical syringe holder and software configuration support both 10 mL and 20 mL syringes. Syringe diameter is parameterized in the Arduino code, allowing flow calculations to automatically adjust without redesigning hardware.
+* **Lead Screw Linear Actuation for High Resolution Dispensing** Rotational motion from a NEMA 17 stepper motor is converted into smooth linear displacement via an 8 mm pitch lead screw. With 8× microstepping (1600 steps/rev), the system achieves sub-microliter minimum dispense volumes per step.
+* **Arduino-Based Control with AccelStepper Library** The pump is controlled by an Arduino using the AccelStepper library to provide stable, constant-speed motor motion. This enables smooth plunger travel, reduced vibration, and improved low-flow accuracy.
+* **Integrated User Interface with Safety Feedback** A latching start/pause button, jog controls, potentiometer-based flow adjustment, and RGB LED indicators provide intuitive operation. LED status clearly communicates system state: running (green), paused (yellow), or syringe empty (red).
+* **Automatic Empty Detection via Limit Switch** A limit switch detects when the syringe plunger reaches the end of travel, automatically stopping the motor to prevent dry operation and signaling the condition to the user.
+* **3D-Printed Modular Enclosure** All mechanical and electronic components are housed in a custom 3D-printed enclosure designed to minimize fluid exposure, protect users from moving parts, and maintain clean cable management.
+* **Fully Parametric CAD Design in Fusion 360** All custom parts—including the syringe holder, carriage, motor mount, and enclosure—were modeled with fully constrained, parametric sketches to support rapid iteration, tolerance adjustment, and future design scaling.
 
 # CAD Model
-<iframe src="https://myhub.autodesk360.com/ue2df0af5/shares/public/SH35dfcQT936092f0e437224cd558fdcdc2f?mode=embed" width="800" height="600" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
+<iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH90d2dQT28d5b602811b83ca271a5617c0c?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
 
-{% include gallery caption="Large Format 3D Printer Gallery" %}
+{% include gallery caption="Modular Syringe Pump for Low-Flow, High-Precision Applications" %}
