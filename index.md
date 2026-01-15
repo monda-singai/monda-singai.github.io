@@ -8,7 +8,8 @@ header:
   actions:
     - label: "My Projects"
       url: "/portfolio/"
-excerpt: "Monda is an engineering student working at the intersection of product design, manufacturing systems, and applied engineering. His work emphasizes CAD-based design, design-for-manufacturability, and practical workflows for prototyping and production."
+excerpt: "Monda is an engineering student specializing in CAD-driven product development and manufacturing-aware design, with a focus on scalable prototyping workflows and production-oriented engineering practices."
+
 feature_row:
   - image_path: assets/img/Syring Pump Rendering Singai.jpg
     alt: "Syringe Pump with Adjustable Flow Control"
