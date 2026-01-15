@@ -19,10 +19,19 @@ Monda Singai is a product-focused engineering student with a systems-oriented ap
 
 Monda can operate a number of different computer controlled (CNC) fabrication tools to turn 3D models into real-life parts. Monda has experience with the following additive manufacturing technologies:
 
-* Fused Filament Fabrication (FFF)
-* Stereolithography (SLA)
-* Selective Laser Sintering (SLS)
-* 3D Inkjet Printing
+### CAD & Design
+- Fusion 360
+- SolidWorks
+
+### Digital Fabrication Tools
+- Fused Filament Fabrication (FFF)
+- Stereolithography (SLA)
+- Selective Laser Sintering (SLS)
+- CNC machining
+
+### Electronics & Programming
+- Arduino
+- Python
 
 ## Industrial Experience
 
