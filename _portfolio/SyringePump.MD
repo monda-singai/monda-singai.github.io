@@ -53,8 +53,7 @@ gallery:
 | End Support (Motor Side) | PLA | 1 | Supports lead screw and rods |
 | End Support (Free Side) | PLA | 1 | Stabilizes linear rods |
 
-{% include gallery caption="Modular Syringe Pump for Low-Flow, High-Precision Applications" %}
-Electrical wiring diagram of the syringe pump system, illustrating the Arduino-based control architecture, stepper motor driver connections, limit switch, user input buttons, LED status indicators, and regulated power supply integration.
+{% include gallery caption="Electrical wiring diagram of the syringe pump system, illustrating the Arduino-based control architecture, stepper motor driver connections, limit switch, user input buttons, LED status indicators, and regulated power supply integration." %}
 
 # CAD Model
 <iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH90d2dQT28d5b602811b83ca271a5617c0c?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
