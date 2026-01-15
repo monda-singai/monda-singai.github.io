@@ -26,7 +26,7 @@ Monda can operate a number of different computer controlled (CNC) fabrication to
 
 ## Industrial Experience
 
-**Toyota North America (TMMK)** — Production Engineering Co-op  
+* **Toyota North America (TMMK)** — Production Engineering Co-op  
   Supported high-volume powertrain manufacturing through process improvement, ergonomic analysis, and production support in a safety-critical environment.
 
 * **The Manchester Hotel** — Operations & Maintenance  
