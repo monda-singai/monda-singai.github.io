@@ -20,7 +20,41 @@ gallery:
 * **3D-Printed Modular Enclosure** All mechanical and electronic components are housed in a custom 3D-printed enclosure designed to minimize fluid exposure, protect users from moving parts, and maintain clean cable management.
 * **Fully Parametric CAD Design in Fusion 360** All custom parts—including the syringe holder, carriage, motor mount, and enclosure—were modeled with fully constrained, parametric sketches to support rapid iteration, tolerance adjustment, and future design scaling.
 
+## Off-the-Shelf Components
+
+| Component | Specification | Quantity | Notes |
+|----------|---------------|----------|-------|
+| Stepper Motor | NEMA 17, 200 steps/rev | 1 | Drives lead screw |
+| Stepper Driver | A4988 compatible | 1 | Microstepping set to 8 |
+| Arduino Board | Arduino Uno | 1 | Main controller |
+| Power Supply | 120 V AC to DC (bench-style) | 1 | Supplies motor + logic power |
+| Lead Screw | 8 mm pitch | 1 | Converts rotation to linear motion |
+| Linear Rods | 8 mm diameter steel | 2 | Guide carriage motion |
+| Linear Bearings | LM8UU | 2 | Press-fit into carriage |
+| Limit Switch | Normally open | 1 | Detects empty syringe |
+| Latching Button | Panel-mounted | 1 | Start / pause control |
+| Jog Buttons | Momentary push buttons | 2 | Manual forward / reverse |
+| Potentiometer | 10 kΩ | 1 | Flow rate adjustment |
+| RGB LED | Common cathode | 1 | Status indication |
+| Breadboard | Standard | 1 | Prototyping electronics |
+| Wiring | Jumper wires + soldered leads | Assorted | Heat-shrink used |
+| Fasteners | M3 / M4 screws and nuts | Assorted | Mechanical assembly |
+
+## 3D Printed Components
+
+| Part Name | Material | Quantity | Function |
+|----------|----------|----------|----------|
+| Enclosure | PLA | 1 | Houses electronics |
+| Enclosure Lid | PLA | 1 | Covers enclosure, mounts UI |
+| Shelf Insert | PLA | 1 | Supports electronics internally |
+| Motor Mount Plate | ABS | 1 | Mounts stepper motor (heat resistant) |
+| Carriage | PLA | 1 | Transfers motion to syringe plunger |
+| Syringe Holder | PLA | 1 | Secures syringe (10 mL / 20 mL) |
+| End Support (Motor Side) | PLA | 1 | Supports lead screw and rods |
+| End Support (Free Side) | PLA | 1 | Stabilizes linear rods |
+
 {% include gallery caption="Modular Syringe Pump for Low-Flow, High-Precision Applications" %}
+Electrical wiring diagram of the syringe pump system, illustrating the Arduino-based control architecture, stepper motor driver connections, limit switch, user input buttons, LED status indicators, and regulated power supply integration.
 
 # CAD Model
 <iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH90d2dQT28d5b602811b83ca271a5617c0c?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
