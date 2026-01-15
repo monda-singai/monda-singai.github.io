@@ -6,12 +6,14 @@ title: "About Monda Singai"
 
 ## Education
 
-Monda approaches product development through a systems lens, integrating design, manufacturing, and lean production considerations.
+Monda Singai is a product-focused engineering student with a systems-oriented approach to product realization. His work integrates design, manufacturing, and lean production principles to translate concepts into manufacturable, scalable solutions. He is particularly interested in design for manufacturability (DFM/DFx), digital fabrication, and process optimization within real-world production constraints.
 
 * Vanderbilt University
-  * BS Engineering Science (concentration in Product Realization)
+  * BS Engineering Science
+    * Concentration in Product Realization
 * Eastern Kentucky University
-  * post-BSE Manufacturing Engineering (concentration in Quality & Lean Manufacturing)
+  * Post-Baccalaureate BSE Manufacturing Engineering
+    * Concentration in Quality & Lean Manufacturing
 
 ## Technical Skills
 
@@ -21,3 +23,14 @@ Monda can operate a number of different computer controlled (CNC) fabrication to
 * Stereolithography (SLA)
 * Selective Laser Sintering (SLS)
 * 3D Inkjet Printing
+
+## Industrial Experience
+
+**Toyota North America (TMMK)** — Production Engineering Co-op  
+  Supported high-volume powertrain manufacturing through process improvement, ergonomic analysis, and production support in a safety-critical environment.
+
+* **The Manchester Hotel** — Operations & Maintenance  
+  Delivered customer-facing service while managing nightly audits and performing hands-on mechanical, electrical, and HVAC maintenance.
+
+* **SyBBURE Searle Undergraduate Research Program** — Research Fellow  
+  Completed independent and team-based STEM projects emphasizing applied analysis and technical communication.
