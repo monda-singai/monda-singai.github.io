@@ -1,12 +1,12 @@
 ---
 
-title: "About Monda Singai"
+title: "About"
 
 ---
 
 ## Education
 
-Monda Singai is a product-focused engineering student with a systems-oriented approach to product realization. His work integrates design, manufacturing, and lean production principles to translate concepts into manufacturable, scalable solutions. He is particularly interested in design for manufacturability (DFM/DFx), digital fabrication, and process optimization within real-world production constraints.
+Monda is a product-focused engineering student with a systems-oriented approach to product realization. His work integrates design, manufacturing, and lean production principles to translate concepts into manufacturable, scalable solutions. He is particularly interested in design for manufacturability (DFM/DFx), digital fabrication, and process optimization within real-world production constraints.
 
 * Vanderbilt University
   * BS Engineering Science
