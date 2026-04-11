@@ -5,7 +5,7 @@ header:
   image: assets/img/PFF Mold CAD Layout Singai.jpg
   teaser: /assets/img/PFF Device Assembled Singai.jpg
 gallery:
-  - [Watch Device Test](https://youtu.be/w1lRtcusky)
+  video: [Watch Device Test](https://youtu.be/w1lRtcusky)
 ---
 
 ---
