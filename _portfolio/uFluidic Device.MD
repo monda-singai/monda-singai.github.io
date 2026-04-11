@@ -28,14 +28,22 @@ A symmetric inlet design was used, where both streams meet at the pinch region. 
 
 ## Experimental Setup
 
-Trial A|Trial B|Trial C
---|--|--
-<img src= video: "https://youtu.be/yrD9zQNNkFU" width="400" />|<img src= video: "https://youtu.be/MLZGYL1cggM" width="400" />|<img src= video: "https://youtu.be/9X9Z9WsOq_w" width="400" />
+| Trial A | Trial B | Trial C |
+|--------|--------|--------|
+| [![Trial A](https://img.youtube.com/vi/yrD9zQNNkFU/0.jpg)](https://youtu.be/yrD9zQNNkFU) | [![Trial B](https://img.youtube.com/vi/MLZGYL1cggM/0.jpg)](https://youtu.be/MLZGYL1cggM) | [![Trial C](https://img.youtube.com/vi/9X9Z9WsOq_w/0.jpg)](https://youtu.be/9X9Z9WsOq_w) |
 
-The device was connected to tubing and tested using a syringe-driven flow system. During setup:
-- Air bubbles were present in the tubing and device  
-- Tubing lengths and orientations varied  
-- Flow rates were manually controlled  
+The device was connected to tubing and tested using a syringe-driven flow system.
+
+| Phase           | Observation                                      | Impact on Performance                          |
+|-----------------|--------------------------------------------------|-----------------------------------------------|
+| Setup           | Air bubbles present in tubing and device         | Disrupted laminar flow; introduced resistance |
+| Setup           | Tubing lengths and orientations varied           | Created uneven backpressure and flow imbalance|
+| Setup           | Flow rates manually controlled                   | Reduced consistency and repeatability         |
+| Testing         | Particles not fully pinched to one wall          | Prevented proper streamline alignment         |
+| Testing         | Flow unstable and frequently disrupted           | Compromised separation reliability            |
+| Testing         | Significant bubble formation                     | Blocked channels and altered flow paths       |
+| Testing         | Particles mixed instead of separating            | No size-based differentiation achieved        |
+| Testing         | Most flow exited through a single outlet         | Indicates poor hydraulic resistance design    |
 
 The device did not achieve successful separation due to several design limitations:
 
@@ -47,6 +55,13 @@ The device did not achieve successful separation due to several design limitatio
 Because of this, particles were not focused into a narrow streamline and instead remained distributed across the channel.
 
 ---
+
+| Performance Aspect        | Working PFF Device                          | This Device (Observed)                     | Impact on Outcome                          |
+|--------------------------|---------------------------------------------|-------------------------------------------|-------------------------------------------|
+| Pinch Region Behavior    | Strong particle alignment to one wall       | Weak or nonexistent pinching              | No initial condition for separation        |
+| Flow Regime              | Smooth, stable laminar flow                 | Bubble-dominated, unstable flow           | Disrupted streamlines and flow paths       |
+| Streamline Separation    | Clear separation into distinct streams      | No clear separation (mixing observed)     | Particles not differentiated by size       |
+| Outlet Flow Distribution | Balanced flow across multiple outlets       | Flow dominated through one outlet         | Collapse of streamlines into single path   |
 
 For PFF devices, outlet flow must match the distribution of streamlines exiting the broadening region. In this design, all outlets had similar geometry, so flow followed the path of least resistance rather than separating based on particle position.
 
@@ -74,38 +89,12 @@ This ensures that flow distribution aligns with streamline behavior and prevents
 
 ---
 
-Parylene coating is applied to resin-printed molds because SLA resins can inhibit PDMS curing. Residual chemicals from the printing process interfere with the crosslinking of PDMS, preventing proper solidification.
-
 Parylene acts as a barrier layer that:
 - Prevents chemical interaction between resin and PDMS  
 - Improves mold release  
 - Produces smoother channel surfaces  
 
----
-
-## Results
-
-### Observations
-
-- Particles were not fully pinched to one wall  
-- Flow was unstable and frequently disrupted  
-- Significant bubble formation occurred  
-- Particles mixed instead of separating  
-- Most flow exited through a single outlet  
-
----
-
-A working PFF device demonstrates:
-- Strong particle alignment in the pinch region  
-- Smooth, laminar flow  
-- Clear separation into distinct streams  
-- Balanced flow across multiple outlets  
-
-In contrast, this device showed:
-- Weak or nonexistent pinching  
-- Bubble-dominated flow  
-- No clear separation  
-- Flow dominance through one outlet  
+Parylene coating is applied to resin-printed molds because SLA resins can inhibit PDMS curing. Residual chemicals from the printing process interfere with the crosslinking of PDMS, preventing proper solidification.
 
 ---
 
