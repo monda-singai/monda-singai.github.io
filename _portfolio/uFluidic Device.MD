@@ -1,6 +1,6 @@
 ---
 title: "Pinched Flow Fractionation (PFF) Microfluidic Device"
-excerpt: "Pinched flow fractionation (PFF) is a microfluidic technique used to separate particles based on size using laminar flow and channel geometry. In this method, a particle-containing stream is compressed against a channel wall by a buffer stream in a narrow pinch region. As the flow enters a wider channel, streamlines expand, and particles separate based on their size-dependent positions relative to the wall."
+excerpt: "Unlike filtration, PFF enables continuous separation without clogging and does not rely on physical barriers."
 header:
   image: /assets/img/PFF Device Assembled Singai.jpg
   teaser: assets/img/PFF Mold CAD Layout Singai.jpg
@@ -12,7 +12,7 @@ gallery:
 
 ## Design
 
-Unlike filtration, PFF enables continuous separation without clogging and does not rely on physical barriers.
+Pinched flow fractionation (PFF) is a microfluidic technique used to separate particles based on size using laminar flow and channel geometry. In this method, a particle-containing stream is compressed against a channel wall by a buffer stream in a narrow pinch region. As the flow enters a wider channel, streamlines expand, and particles separate based on their size-dependent positions relative to the wall.
 
 ### Geometry and Approach
 
