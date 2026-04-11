@@ -128,7 +128,7 @@ This ensures that flow distribution aligns with streamline behavior and prevents
 
 ---
 
-## Barrier Redesign (Flow Resistance Control)
+## Barrier Redesign - Flow Resistance Control
 
 | Section                    | Key Points                                                                 | Engineering Insight                                  | Impact on Device Performance                      |
 |---------------------------|--------------------------------------------------------------------------|-----------------------------------------------------|--------------------------------------------------|
