@@ -3,9 +3,7 @@ title: "Pinched Flow Fractionation (PFF) Microfluidic Device"
 excerpt: "Unlike filtration, PFF enables continuous separation without clogging and does not rely on physical barriers."
 header:
   image: /assets/img/PFF Device Assembled Singai.jpg
-  teaser: assets/img/PFF Mold CAD Layout Singai.jpg
----
-
+  teaser: /assets/img/PFF Mold CAD Layout Singai.jpg
 ---
 
 ## Design
@@ -38,9 +36,7 @@ A symmetric inlet design was used, where both streams meet at the pinch region. 
 8. Plasma treated PDMS and glass slide  
 9. Bonded PDMS to glass
 
-image: assets/img/Plasma-Treating-Image.jpg
-
----
+![Plasma Treating Process](assets/img/Plasma-Treating-Image.jpg)
 
 Parylene acts as a barrier layer that:
 - Prevents chemical interaction between resin and PDMS  
@@ -109,25 +105,6 @@ This ensures that flow distribution aligns with streamline behavior and prevents
 
 ---
 
-## Improvements
-
-| Category            | Design Change                                      | Engineering Rationale                              | Expected Impact                                  |
-|---------------------|----------------------------------------------------|----------------------------------------------------|--------------------------------------------------|
-| Geometry            | Reduce pinch width to ~1.2–1.5× largest particle  | Ensures proper particle alignment at pinch         | Enables initial condition required for separation |
-|                     | Smooth channel transitions                         | Reduces flow disturbances and stagnation zones     | Improves laminar flow stability                  |
-|                     | Remove internal features that trap air             | Eliminates bubble nucleation points                | Reduces flow disruption and blockage             |
-| Flow Control        | Increase buffer-to-sample flow ratio               | Strengthens pinching force against channel wall    | Improves particle focusing                       |
-|                     | Ensure stable flow before introducing particles    | Prevents transient flow disturbances               | Improves repeatability and consistency           |
-| Outlet Design       | Add long, narrow (or serpentine) particle outlets  | Increases hydraulic resistance in particle paths   | Prevents flow dominance through one outlet       |
-|                     | Keep buffer outlet short and wide                  | Maintains low resistance path for bulk flow        | Stabilizes overall flow distribution             |
-|                     | Design for controlled resistance differences       | Aligns outlet flow with streamline distribution    | Preserves separation across outlets              |
-| Bubble Mitigation   | Degas PDMS before curing                           | Removes dissolved gases from material              | Reduces bubble formation during operation        |
-|                         | Prime tubing before connection                     | Eliminates trapped air in system                   | Prevents initial flow disruption                 |
-|                     | Pre-fill device slowly                             | Avoids air entrapment in channels                  | Maintains continuous laminar flow                |
-|                     | Use consistent tubing lengths                      | Minimizes pressure and resistance differences      | Improves flow balance across outlets             |
-
----
-
 ## Barrier Redesign - Flow Resistance Control
 
 | Section                    | Key Points                                                                 | Engineering Insight                                  | Impact on Device Performance                      |
@@ -142,4 +119,21 @@ This ensures that flow distribution aligns with streamline behavior and prevents
 | With Redesign             | Flow distributed across outlets; streamlines maintained                  | Controlled hydraulic resistance                      | Enables size-based particle separation            |
 | Connection to Results     | Observed single-outlet flow confirms imbalance                           | Matches theoretical failure mode                     | Justifies redesign approach                       |
 
+---
 
+## Improvements
+
+| Category            | Design Change                                      | Engineering Rationale                              | Expected Impact                                  |
+|---------------------|----------------------------------------------------|----------------------------------------------------|--------------------------------------------------|
+| Geometry            | Reduce pinch width to ~1.2–1.5× largest particle   | Ensures proper particle alignment at pinch         | Enables initial condition required for separation|
+|                     | Smooth channel transitions                         | Reduces flow disturbances and stagnation zones     | Improves laminar flow stability                  |
+|                     | Remove internal features that trap air             | Eliminates bubble nucleation points                | Reduces flow disruption and blockage             |
+| Flow Control        | Increase buffer-to-sample flow ratio               | Strengthens pinching force against channel wall    | Improves particle focusing                       |
+|                     | Ensure stable flow before introducing particles    | Prevents transient flow disturbances               | Improves repeatability and consistency           |
+| Outlet Design       | Add long, narrow (or serpentine) particle outlets  | Increases hydraulic resistance in particle paths   | Prevents flow dominance through one outlet       |
+|                     | Keep buffer outlet short and wide                  | Maintains low resistance path for bulk flow        | Stabilizes overall flow distribution             |
+|                     | Design for controlled resistance differences       | Aligns outlet flow with streamline distribution    | Preserves separation across outlets              |
+| Bubble Mitigation   | Degas PDMS before curing                           | Removes dissolved gases from material              | Reduces bubble formation during operation        |
+|                     | Prime tubing before connection                     | Eliminates trapped air in system                   | Prevents initial flow disruption                 |
+|                     | Pre-fill device slowly                             | Avoids air entrapment in channels                  | Maintains continuous laminar flow                |
+|                     | Use consistent tubing lengths                      | Minimizes pressure and resistance differences      | Improves flow balance across outlets             |
