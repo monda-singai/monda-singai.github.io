@@ -15,7 +15,11 @@ feature_row:
     alt: "Syringe Pump with Adjustable Flow Control"
     title: "Stepper-Driven Syringe Pump with Adjustable Flow Control"
     excerpt: "A motor-driven syringe pump prototype developed through CAD modeling, additive manufacturing, and Arduino programming to achieve controlled fluid delivery across defined flow rates."
- 
+  - image_path: assets/img/PFF Device Assembled Singai.jpg
+    alt: "Microfluidic PFF Device CAD Model"
+    title: "Pinched Flow Fractionation Microfluidic Device Design"
+    excerpt: "Parametric CAD model of a PDMS microfluidic device designed for pinch flow fractionation, featuring inlet channels, a pinch region, broadening section, and multi-outlet geometry for size-based particle separation."
+
 ---
 
 {% include feature_row %}
