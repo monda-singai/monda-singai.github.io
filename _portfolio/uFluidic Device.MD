@@ -28,16 +28,8 @@ A symmetric inlet design was used, where both streams meet at the pinch region. 
 
 ## Experimental Setup
 
-<table>
-  <tr>
-    <td><video src="path/to/device attempt 1.mp4" width="100%"></video></td>
-    <td><video src="path/to/device attempt 2.mp4" width="100%"></video></td>
-    <td><video src="path/to/device attempt 3.mp4" width="100%"></video></td>
-  </tr>
-</table>
-
-A|B
---|--
+Trial A|Trial B|Trial C
+--|--|--
 <img src="path/to/device attempt 1.mp4" width="600" />|<img src="path/to/device attempt 2.mp4" width="600" />|<img src="path/to/device attempt 3.mp4" width="600" />
 
 
