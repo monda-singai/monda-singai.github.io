@@ -4,8 +4,7 @@ excerpt: "Pinched flow fractionation (PFF) is a microfluidic technique used to s
 header:
   image: assets/img/PFF Mold CAD Layout Singai.jpg
   teaser: /assets/img/PFF Device Assembled Singai.jpg
-gallery:
-  video: [Watch Device Test](https://youtu.be/w1lRtcusky)
+gallery: video: [Watch Device Test](https://youtu.be/w1lRtcusky)
 ---
 
 ---
