@@ -4,7 +4,8 @@ excerpt: "Unlike filtration, PFF enables continuous separation without clogging 
 header:
   image: /assets/img/PFF Device Assembled Singai.jpg
   teaser: assets/img/PFF Mold CAD Layout Singai.jpg
-  video: [Watch Reference Device](https://youtu.be/w1lRtcusky)
+gallery:
+  video: [![Reference Device](https://youtu.be/w1lRtcusky0.jpg)(https://youtu.be/w1lRtcusky)
 ---
 
 ---
