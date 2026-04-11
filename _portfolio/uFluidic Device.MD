@@ -96,7 +96,7 @@ This ensures that flow distribution aligns with streamline behavior and prevents
 
 ## Failure Analysis
 
-| Failure Mode              | Description                                                                 | Root Cause(s)                                      | Impact on Performance                          |
+|               | Description                                                                 | Root Cause(s)                                      | Impact on Performance                          |
 |---------------------------|-----------------------------------------------------------------------------|----------------------------------------------------|-----------------------------------------------|
 | Bubble Formation (Primary)| Air bubbles present throughout device and tubing                           | Entrapped air during setup; inadequate priming     | Disrupted laminar flow; blocked channels; unpredictable flow behavior |
 | Insufficient Pinching     | Particles not compressed against channel wall                              | Pinch width too large; insufficient buffer flow    | No streamline alignment; prevents size-based separation |
@@ -107,7 +107,7 @@ This ensures that flow distribution aligns with streamline behavior and prevents
 
 ## Barrier Redesign - Flow Resistance Control
 
-| Section                    | Key Points                                                                 | Engineering Insight                                  | Impact on Device Performance                      |
+|                    | Key Points                                                                 | Engineering Insight                                  | Impact on Device Performance                      |
 |---------------------------|--------------------------------------------------------------------------|-----------------------------------------------------|--------------------------------------------------|
 | Problem Observed          | Flow exited primarily through a single outlet; no separation achieved    | Hydraulic resistance not balanced                    | Streamlines collapsed into lowest-resistance path |
 | Role of Barriers in PFF   | Separation depends on preserving streamlines through outlet region       | Outlet design actively controls flow distribution    | Prevents merging of particle trajectories         |
@@ -123,7 +123,7 @@ This ensures that flow distribution aligns with streamline behavior and prevents
 
 ## Improvements
 
-| Category            | Design Change                                      | Engineering Rationale                              | Expected Impact                                  |
+|             | Design Change                                      | Engineering Rationale                              | Expected Impact                                  |
 |---------------------|----------------------------------------------------|----------------------------------------------------|--------------------------------------------------|
 | Geometry            | Reduce pinch width to ~1.2–1.5× largest particle   | Ensures proper particle alignment at pinch         | Enables initial condition required for separation|
 |                     | Smooth channel transitions                         | Reduces flow disturbances and stagnation zones     | Improves laminar flow stability                  |
