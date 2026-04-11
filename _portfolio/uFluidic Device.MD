@@ -38,7 +38,7 @@ A symmetric inlet design was used, where both streams meet at the pinch region. 
 8. Plasma treated PDMS and glass slide  
 9. Bonded PDMS to glass
 
-![Plasma Treating Process](assets/img/Plasma-Treating-Image.jpg)
+![Plasma Treating](assets/img/Plasma-Treating-Image.jpg)
 
 ---
 
