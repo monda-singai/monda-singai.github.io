@@ -36,7 +36,9 @@ A symmetric inlet design was used, where both streams meet at the pinch region. 
 6. Cured PDMS and removed from mold  
 7. Punched inlet and outlet holes  
 8. Plasma treated PDMS and glass slide  
-9. Bonded PDMS to glass  
+9. Bonded PDMS to glass
+
+image: /assets/img/Plasma-Treating_Image.jpg
 
 ---
 
@@ -55,7 +57,7 @@ Parylene coating is applied to resin-printed molds because SLA resins can inhibi
 |--------|--------|--------|
 | [![Trial A](https://img.youtube.com/vi/yrD9zQNNkFU/0.jpg)](https://youtu.be/yrD9zQNNkFU) | [![Trial B](https://img.youtube.com/vi/MLZGYL1cggM/0.jpg)](https://youtu.be/MLZGYL1cggM) | [![Trial C](https://img.youtube.com/vi/9X9Z9WsOq_w/0.jpg)](https://youtu.be/9X9Z9WsOq_w) |
 
-The device was connected to tubing and tested using a syringe-driven flow system.
+The device was connected to tubing and tested using a syringe-driven flow system. [Watch Reference Device](https://youtu.be/w1lRtcusky)
 
 | Phase           | Observation                                      | Impact on Performance                          |
 |-----------------|--------------------------------------------------|-----------------------------------------------|
@@ -76,12 +78,6 @@ The device did not achieve successful separation due to several design limitatio
 - No mechanism was included to control flow distribution across outlets  
 
 Because of this, particles were not focused into a narrow streamline and instead remained distributed across the channel.
-
----
-
-## Reference Device
-
-[Watch Reference Device](https://youtu.be/w1lRtcusky)
 
 ---
 
