@@ -109,7 +109,7 @@ This ensures that flow distribution aligns with streamline behavior and prevents
 
 |                    | Key Points                                                                 | Engineering Insight                                  | Impact on Device Performance                      |
 |---------------------------|--------------------------------------------------------------------------|-----------------------------------------------------|--------------------------------------------------|
-| Problem           | Flow exited primarily through a single outlet; no separation achieved    | Hydraulic resistance not balanced                    | Streamlines collapsed into lowest-resistance path |
+|            | Flow exited primarily through a single outlet; no separation achieved    | Hydraulic resistance not balanced                    | Streamlines collapsed into lowest-resistance path |
 | Role of Barriers in PFF   | Separation depends on preserving streamlines through outlet region       | Outlet design actively controls flow distribution    | Prevents merging of particle trajectories         |
 | Increased Resistance      | Particle outlets made longer and/or narrower                             | Raises hydraulic resistance in particle paths        | Prevents flow dominance in a single outlet        |
 | Low-Resistance Buffer     | Buffer outlet kept short and wide                                        | Provides stable, dominant flow path                  | Stabilizes upstream pinching conditions           |
@@ -130,7 +130,7 @@ This ensures that flow distribution aligns with streamline behavior and prevents
 |                     | Remove internal features that trap air             | Eliminates bubble nucleation points                | Reduces flow disruption and blockage             |
 | Flow Control        | Increase buffer-to-sample flow ratio               | Strengthens pinching force against channel wall    | Improves particle focusing                       |
 |                     | Ensure stable flow before introducing particles    | Prevents transient flow disturbances               | Improves repeatability and consistency           |
-| Outlet Design       | Add long, narrow (or serpentine) particle outlets  | Increases hydraulic resistance in particle paths   | Prevents flow dominance through one outlet       |
+| Outlet Design       | Add long, narrow (serpentine) particle outlets  | Increases hydraulic resistance in particle paths   | Prevents flow dominance through one outlet       |
 |                     | Keep buffer outlet short and wide                  | Maintains low resistance path for bulk flow        | Stabilizes overall flow distribution             |
 |                     | Design for controlled resistance differences       | Aligns outlet flow with streamline distribution    | Preserves separation across outlets              |
 | Bubble Mitigation   | Degas PDMS before curing                           | Removes dissolved gases from material              | Reduces bubble formation during operation        |
