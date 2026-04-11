@@ -1,14 +1,19 @@
-# Pinched Flow Fractionation (PFF) Microfluidic Device
-
-## Introduction
-
-Pinched flow fractionation (PFF) is a microfluidic technique used to separate particles based on size using laminar flow and channel geometry. In this method, a particle-containing stream is compressed against a channel wall by a buffer stream in a narrow pinch region. As the flow enters a wider channel, streamlines expand, and particles separate based on their size-dependent positions relative to the wall.
-
-Unlike filtration, PFF enables continuous separation without clogging and does not rely on physical barriers. This makes it useful in applications such as cell sorting, particle classification, and micro-scale chemical processing.
+# 
+---
+title: "Pinched Flow Fractionation (PFF) Microfluidic Device"
+excerpt: "Pinched flow fractionation (PFF) is a microfluidic technique used to separate particles based on size using laminar flow and channel geometry. In this method, a particle-containing stream is compressed against a channel wall by a buffer stream in a narrow pinch region. As the flow enters a wider channel, streamlines expand, and particles separate based on their size-dependent positions relative to the wall."
+header:
+  image: assets/img/PFF Mold CAD Layout Singai.jpg
+  teaser: /assets/img/PFF Device Assembled Singai.jpg
+gallery:
+  - video_path: path/to/reference.mp4
+---
 
 ---
 
 ## Design
+
+Unlike filtration, PFF enables continuous separation without clogging and does not rely on physical barriers.
 
 ### Geometry and Approach
 
@@ -22,7 +27,16 @@ A symmetric inlet design was used, where both streams meet at the pinch region. 
 
 ---
 
-### Why the Geometry Was Not Effective
+## Experimental Setup
+
+- Device Test 1: path/to/device attempt 1.mp4
+- Device Test 2: path/to/device attempt 2.mp4
+- Device Test 3: path/to/device attempt 3.mp4
+
+The device was connected to tubing and tested using a syringe-driven flow system. During setup:
+- Air bubbles were present in the tubing and device  
+- Tubing lengths and orientations varied  
+- Flow rates were manually controlled  
 
 The device did not achieve successful separation due to several design limitations:
 
@@ -34,8 +48,6 @@ The device did not achieve successful separation due to several design limitatio
 Because of this, particles were not focused into a narrow streamline and instead remained distributed across the channel.
 
 ---
-
-### Flow Balancing (Critical Reflection)
 
 For PFF devices, outlet flow must match the distribution of streamlines exiting the broadening region. In this design, all outlets had similar geometry, so flow followed the path of least resistance rather than separating based on particle position.
 
@@ -63,36 +75,12 @@ This ensures that flow distribution aligns with streamline behavior and prevents
 
 ---
 
-### Why Parylene Coating is Used (Reflection)
-
 Parylene coating is applied to resin-printed molds because SLA resins can inhibit PDMS curing. Residual chemicals from the printing process interfere with the crosslinking of PDMS, preventing proper solidification.
 
 Parylene acts as a barrier layer that:
 - Prevents chemical interaction between resin and PDMS  
 - Improves mold release  
 - Produces smoother channel surfaces  
-
----
-
-## Experimental Setup
-
-![Device Setup](assets/device_setup.jpg)
-
-The device was connected to tubing and tested using a syringe-driven flow system. During setup:
-- Air bubbles were present in the tubing and device  
-- Tubing lengths and orientations varied  
-- Flow rates were manually controlled  
-
----
-
-## Testing
-
-### Videos
-
-- Device Test 1: [Insert Link]
-- Device Test 2: [Insert Link]
-- Device Test 3: [Insert Link]
-- Reference Device: [Insert Link]
 
 ---
 
@@ -107,8 +95,6 @@ The device was connected to tubing and tested using a syringe-driven flow system
 - Most flow exited through a single outlet  
 
 ---
-
-## Comparison to Reference Device
 
 A working PFF device demonstrates:
 - Strong particle alignment in the pinch region  
