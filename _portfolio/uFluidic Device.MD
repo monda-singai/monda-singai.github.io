@@ -81,7 +81,7 @@ Because of this, particles were not focused into a narrow streamline and instead
 
 ---
 
-| Performance Aspect        | Working PFF Device                          | This Device (Observed)                     | Impact on Outcome                          |
+| Performance Aspect       | Working PFF Device (Ideal)                  | This Device (Observed)                    | Outcome                                   |
 |--------------------------|---------------------------------------------|-------------------------------------------|-------------------------------------------|
 | Pinch Region Behavior    | Strong particle alignment to one wall       | Weak or nonexistent pinching              | No initial condition for separation        |
 | Flow Regime              | Smooth, stable laminar flow                 | Bubble-dominated, unstable flow           | Disrupted streamlines and flow paths       |
