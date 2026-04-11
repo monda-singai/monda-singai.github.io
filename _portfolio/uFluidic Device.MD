@@ -5,7 +5,7 @@ header:
   image: assets/img/PFF Mold CAD Layout Singai.jpg
   teaser: /assets/img/PFF Device Assembled Singai.jpg
 gallery:
-  - video_path: path/to/reference.mp4
+  - [Watch Device Test](https://youtu.be/w1lRtcusky)
 ---
 
 ---
@@ -30,8 +30,7 @@ A symmetric inlet design was used, where both streams meet at the pinch region. 
 
 Trial A|Trial B|Trial C
 --|--|--
-<img src="path/to/device attempt 1.mp4" width="600" />|<img src="path/to/device attempt 2.mp4" width="600" />|<img src="path/to/device attempt 3.mp4" width="600" />
-
+<img src="[Watch Device Test](https://youtu.be/yrD9zQNNkFU)" width="400" />|<img src="[Watch Device Test](https://youtu.be/MLZGYL1cggM)" width="400" />|<img src="[Watch Device Test](https://youtu.be/9X9Z9WsOq_w)" width="400" />
 
 The device was connected to tubing and tested using a syringe-driven flow system. During setup:
 - Air bubbles were present in the tubing and device  
