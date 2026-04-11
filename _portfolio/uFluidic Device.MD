@@ -4,8 +4,6 @@ excerpt: "Unlike filtration, PFF enables continuous separation without clogging 
 header:
   image: /assets/img/PFF Device Assembled Singai.jpg
   teaser: assets/img/PFF Mold CAD Layout Singai.jpg
-
-video: [![Reference Device](https://youtu.be/w1lRtcusky0.jpg)(https://youtu.be/w1lRtcusky)
 ---
 
 ---
@@ -23,6 +21,31 @@ The device consists of:
 - Three outlet channels
 
 A symmetric inlet design was used, where both streams meet at the pinch region. The intention was to compress the particle stream against one wall before entering the expansion region.
+
+---
+
+## Fabrication Process
+
+### Workflow
+
+1. Designed mold in Fusion 360  
+2. Exported and printed mold using SLA resin printing  
+3. Washed and post-cured printed mold  
+4. Coated mold with parylene  
+5. Mixed PDMS (10:1), degassed, and poured into mold  
+6. Cured PDMS and removed from mold  
+7. Punched inlet and outlet holes  
+8. Plasma treated PDMS and glass slide  
+9. Bonded PDMS to glass  
+
+---
+
+Parylene acts as a barrier layer that:
+- Prevents chemical interaction between resin and PDMS  
+- Improves mold release  
+- Produces smoother channel surfaces  
+
+Parylene coating is applied to resin-printed molds because SLA resins can inhibit PDMS curing. Residual chemicals from the printing process interfere with the crosslinking of PDMS, preventing proper solidification.
 
 ---
 
@@ -56,6 +79,12 @@ Because of this, particles were not focused into a narrow streamline and instead
 
 ---
 
+## Reference Device
+
+[Watch Reference Device](https://youtu.be/w1lRtcusky)
+
+---
+
 | Performance Aspect        | Working PFF Device                          | This Device (Observed)                     | Impact on Outcome                          |
 |--------------------------|---------------------------------------------|-------------------------------------------|-------------------------------------------|
 | Pinch Region Behavior    | Strong particle alignment to one wall       | Weak or nonexistent pinching              | No initial condition for separation        |
@@ -73,104 +102,34 @@ This ensures that flow distribution aligns with streamline behavior and prevents
 
 ---
 
-## Fabrication Process
-
-### Workflow
-
-1. Designed mold in Fusion 360  
-2. Exported and printed mold using SLA resin printing  
-3. Washed and post-cured printed mold  
-4. Coated mold with parylene  
-5. Mixed PDMS (10:1), degassed, and poured into mold  
-6. Cured PDMS and removed from mold  
-7. Punched inlet and outlet holes  
-8. Plasma treated PDMS and glass slide  
-9. Bonded PDMS to glass  
-
----
-
-Parylene acts as a barrier layer that:
-- Prevents chemical interaction between resin and PDMS  
-- Improves mold release  
-- Produces smoother channel surfaces  
-
-Parylene coating is applied to resin-printed molds because SLA resins can inhibit PDMS curing. Residual chemicals from the printing process interfere with the crosslinking of PDMS, preventing proper solidification.
-
----
-
 ## Failure Analysis
 
-### 1. Bubble Formation (Primary Failure)
-
-Air bubbles were present throughout the device and tubing. These bubbles:
-- Disrupted laminar flow  
-- Blocked channels  
-- Created fluctuating resistance  
-- Caused unpredictable flow behavior  
-
----
-
-### 2. Insufficient Pinching
-
-Particles were not compressed against the channel wall. This prevented formation of distinct streamlines, which is required for size-based separation.
-
-Likely causes:
-- Pinch width too large  
-- Insufficient buffer flow relative to particle stream  
-
----
-
-### 3. Outlet Flow Imbalance
-
-Most fluid exited through one outlet, indicating:
-- Unequal or poorly designed hydraulic resistance  
-- No control over flow distribution  
-
-This caused all particles to follow the same path regardless of size.
-
----
-
-### 4. Geometry-Induced Issues
-
-Channel features and transitions likely:
-- Trapped bubbles  
-- Created dead zones  
-- Disrupted smooth flow expansion  
+| Failure Mode              | Description                                                                 | Root Cause(s)                                      | Impact on Performance                          |
+|---------------------------|-----------------------------------------------------------------------------|----------------------------------------------------|-----------------------------------------------|
+| Bubble Formation (Primary)| Air bubbles present throughout device and tubing                           | Entrapped air during setup; inadequate priming     | Disrupted laminar flow; blocked channels; unpredictable flow behavior |
+| Insufficient Pinching     | Particles not compressed against channel wall                              | Pinch width too large; insufficient buffer flow    | No streamline alignment; prevents size-based separation |
+| Outlet Flow Imbalance     | Majority of flow exited through a single outlet                            | Unequal hydraulic resistance; lack of flow control | Streamline collapse; all particles follow same path |
+| Geometry-Induced Issues   | Channel features disrupted smooth flow                                     | Sharp transitions; internal features; dead zones   | Bubble trapping; stagnant regions; poor flow expansion |
 
 ---
 
 ## Improvements
 
-### Geometry
-- Reduce pinch width to ~1.2–1.5× largest particle size  
-- Smooth channel transitions  
-- Remove internal features that trap air  
+| Category            | Design Change                                      | Engineering Rationale                              | Expected Impact                                  |
+|---------------------|----------------------------------------------------|----------------------------------------------------|--------------------------------------------------|
+| Geometry            | Reduce pinch width to ~1.2–1.5× largest particle  | Ensures proper particle alignment at pinch         | Enables initial condition required for separation |
+| Geometry            | Smooth channel transitions                         | Reduces flow disturbances and stagnation zones     | Improves laminar flow stability                  |
+| Geometry            | Remove internal features that trap air             | Eliminates bubble nucleation points                | Reduces flow disruption and blockage             |
+| Flow Control        | Increase buffer-to-sample flow ratio               | Strengthens pinching force against channel wall    | Improves particle focusing                       |
+| Flow Control        | Ensure stable flow before introducing particles    | Prevents transient flow disturbances               | Improves repeatability and consistency           |
+| Outlet Design       | Add long, narrow (or serpentine) particle outlets  | Increases hydraulic resistance in particle paths   | Prevents flow dominance through one outlet       |
+| Outlet Design       | Keep buffer outlet short and wide                  | Maintains low resistance path for bulk flow        | Stabilizes overall flow distribution             |
+| Outlet Design       | Design for controlled resistance differences       | Aligns outlet flow with streamline distribution    | Preserves separation across outlets              |
+| Bubble Mitigation   | Degas PDMS before curing                           | Removes dissolved gases from material              | Reduces bubble formation during operation        |
+| Bubble Mitigation   | Prime tubing before connection                     | Eliminates trapped air in system                   | Prevents initial flow disruption                 |
+| Bubble Mitigation   | Pre-fill device slowly                             | Avoids air entrapment in channels                  | Maintains continuous laminar flow                |
+| Bubble Mitigation   | Use consistent tubing lengths                      | Minimizes pressure and resistance differences      | Improves flow balance across outlets             |
 
 ---
 
-### Flow Control
-- Increase buffer-to-sample flow ratio  
-- Ensure stable flow before introducing particles  
 
----
-
-### Outlet Design
-- Add long, narrow (or serpentine) particle outlets  
-- Keep buffer outlet short and wide  
-- Design for controlled resistance differences  
-
----
-
-### Bubble Mitigation
-- Degas PDMS before curing  
-- Prime tubing before connection  
-- Pre-fill device slowly to avoid trapped air  
-- Use consistent tubing lengths  
-
----
-
-## Conclusion
-
-The device did not achieve successful particle separation due to bubble formation, insufficient pinching, and lack of outlet flow control. While the overall structure followed PFF principles, key functional requirements were not met.
-
-Future improvements will focus on stronger pinching, controlled outlet resistance, and eliminating bubbles. With these changes, the device is expected to achieve effective size-based separation.
