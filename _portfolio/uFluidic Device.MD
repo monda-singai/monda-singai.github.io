@@ -128,4 +128,18 @@ This ensures that flow distribution aligns with streamline behavior and prevents
 
 ---
 
+## Barrier Redesign (Flow Resistance Control)
+
+| Section                    | Key Points                                                                 | Engineering Insight                                  | Impact on Device Performance                      |
+|---------------------------|--------------------------------------------------------------------------|-----------------------------------------------------|--------------------------------------------------|
+| Problem Observed          | Flow exited primarily through a single outlet; no separation achieved    | Hydraulic resistance not balanced                    | Streamlines collapsed into lowest-resistance path |
+| Role of Barriers in PFF   | Separation depends on preserving streamlines through outlet region       | Outlet design actively controls flow distribution    | Prevents merging of particle trajectories         |
+| Increased Resistance      | Particle outlets made longer and/or narrower                             | Raises hydraulic resistance in particle paths        | Prevents flow dominance in a single outlet        |
+| Low-Resistance Buffer     | Buffer outlet kept short and wide                                        | Provides stable, dominant flow path                  | Stabilizes upstream pinching conditions           |
+| Indirect Flow Paths       | Avoid straight outlet channels; use extended/constrained paths           | Introduces passive flow barriers                     | Redistributes flow more evenly                    |
+| Engineering Rationale     | Flow ∝ 1 / resistance                                                    | Small variations otherwise dominate flow behavior    | Enables controlled streamline preservation        |
+| Without Redesign          | Streamlines collapse; particles follow identical paths                   | No resistance differentiation                        | Separation fails                                  |
+| With Redesign             | Flow distributed across outlets; streamlines maintained                  | Controlled hydraulic resistance                      | Enables size-based particle separation            |
+| Connection to Results     | Observed single-outlet flow confirms imbalance                           | Matches theoretical failure mode                     | Justifies redesign approach                       |
+
 
