@@ -28,9 +28,13 @@ A symmetric inlet design was used, where both streams meet at the pinch region. 
 
 ## Experimental Setup
 
-- Device Test 1: path/to/device attempt 1.mp4
-- Device Test 2: path/to/device attempt 2.mp4
-- Device Test 3: path/to/device attempt 3.mp4
+<table>
+  <tr>
+    <td><video src="path/to/device attempt 1.mp4" width="100%"></video></td>
+    <td><video src="path/to/device attempt 2.mp4" width="100%"></video></td>
+    <td><video src="path/to/device attempt 3.mp4" width="100%"></video></td>
+  </tr>
+</table>
 
 The device was connected to tubing and tested using a syringe-driven flow system. During setup:
 - Air bubbles were present in the tubing and device  
