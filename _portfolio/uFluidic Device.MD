@@ -62,13 +62,13 @@ The device was connected to tubing and tested using a syringe-driven flow system
 | Phase           | Observation                                      | Impact on Performance                          |
 |-----------------|--------------------------------------------------|-----------------------------------------------|
 | Setup           | Air bubbles present in tubing and device         | Disrupted laminar flow; introduced resistance |
-| Setup           | Tubing lengths and orientations varied           | Created uneven backpressure and flow imbalance|
-| Setup           | Flow rates manually controlled                   | Reduced consistency and repeatability         |
+|                 | Tubing lengths and orientations varied           | Created uneven backpressure and flow imbalance|
+|                 | Flow rates manually controlled                   | Reduced consistency and repeatability         |
 | Testing         | Particles not fully pinched to one wall          | Prevented proper streamline alignment         |
-| Testing         | Flow unstable and frequently disrupted           | Compromised separation reliability            |
-| Testing         | Significant bubble formation                     | Blocked channels and altered flow paths       |
-| Testing         | Particles mixed instead of separating            | No size-based differentiation achieved        |
-| Testing         | Most flow exited through a single outlet         | Indicates poor hydraulic resistance design    |
+|                 | Flow unstable and frequently disrupted           | Compromised separation reliability            |
+|                 | Significant bubble formation                     | Blocked channels and altered flow paths       |
+|                 | Particles mixed instead of separating            | No size-based differentiation achieved        |
+|                 | Most flow exited through a single outlet         | Indicates poor hydraulic resistance design    |
 
 The device did not achieve successful separation due to several design limitations:
 
@@ -114,17 +114,17 @@ This ensures that flow distribution aligns with streamline behavior and prevents
 | Category            | Design Change                                      | Engineering Rationale                              | Expected Impact                                  |
 |---------------------|----------------------------------------------------|----------------------------------------------------|--------------------------------------------------|
 | Geometry            | Reduce pinch width to ~1.2–1.5× largest particle  | Ensures proper particle alignment at pinch         | Enables initial condition required for separation |
-| Geometry            | Smooth channel transitions                         | Reduces flow disturbances and stagnation zones     | Improves laminar flow stability                  |
-| Geometry            | Remove internal features that trap air             | Eliminates bubble nucleation points                | Reduces flow disruption and blockage             |
+|                     | Smooth channel transitions                         | Reduces flow disturbances and stagnation zones     | Improves laminar flow stability                  |
+|                     | Remove internal features that trap air             | Eliminates bubble nucleation points                | Reduces flow disruption and blockage             |
 | Flow Control        | Increase buffer-to-sample flow ratio               | Strengthens pinching force against channel wall    | Improves particle focusing                       |
-| Flow Control        | Ensure stable flow before introducing particles    | Prevents transient flow disturbances               | Improves repeatability and consistency           |
+|                     | Ensure stable flow before introducing particles    | Prevents transient flow disturbances               | Improves repeatability and consistency           |
 | Outlet Design       | Add long, narrow (or serpentine) particle outlets  | Increases hydraulic resistance in particle paths   | Prevents flow dominance through one outlet       |
-| Outlet Design       | Keep buffer outlet short and wide                  | Maintains low resistance path for bulk flow        | Stabilizes overall flow distribution             |
-| Outlet Design       | Design for controlled resistance differences       | Aligns outlet flow with streamline distribution    | Preserves separation across outlets              |
+|                     | Keep buffer outlet short and wide                  | Maintains low resistance path for bulk flow        | Stabilizes overall flow distribution             |
+|                     | Design for controlled resistance differences       | Aligns outlet flow with streamline distribution    | Preserves separation across outlets              |
 | Bubble Mitigation   | Degas PDMS before curing                           | Removes dissolved gases from material              | Reduces bubble formation during operation        |
-| Bubble Mitigation   | Prime tubing before connection                     | Eliminates trapped air in system                   | Prevents initial flow disruption                 |
-| Bubble Mitigation   | Pre-fill device slowly                             | Avoids air entrapment in channels                  | Maintains continuous laminar flow                |
-| Bubble Mitigation   | Use consistent tubing lengths                      | Minimizes pressure and resistance differences      | Improves flow balance across outlets             |
+|                         | Prime tubing before connection                     | Eliminates trapped air in system                   | Prevents initial flow disruption                 |
+|                     | Pre-fill device slowly                             | Avoids air entrapment in channels                  | Maintains continuous laminar flow                |
+|                     | Use consistent tubing lengths                      | Minimizes pressure and resistance differences      | Improves flow balance across outlets             |
 
 ---
 
