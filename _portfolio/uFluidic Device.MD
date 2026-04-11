@@ -36,6 +36,11 @@ A symmetric inlet design was used, where both streams meet at the pinch region. 
   </tr>
 </table>
 
+A|B
+--|--
+<img src="path/to/device attempt 1.mp4" width="600" />|<img src="path/to/device attempt 2.mp4" width="600" />|<img src="path/to/device attempt 3.mp4" width="600" />
+
+
 The device was connected to tubing and tested using a syringe-driven flow system. During setup:
 - Air bubbles were present in the tubing and device  
 - Tubing lengths and orientations varied  
