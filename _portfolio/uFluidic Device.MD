@@ -117,7 +117,7 @@ This ensures that flow distribution aligns with streamline behavior and prevents
 | Engineering Rationale     | Flow ∝ 1 / resistance                                                    | Small variations otherwise dominate flow behavior    | Enables controlled streamline preservation        |
 | Without Redesign          | Streamlines collapse; particles follow identical paths                   | No resistance differentiation                        | Separation fails                                  |
 | With Redesign             | Flow distributed across outlets; streamlines maintained                  | Controlled hydraulic resistance                      | Enables size-based particle separation            |
-| Connection to Results     | Observed single-outlet flow confirms imbalance                           | Matches theoretical failure mode                     | Justifies redesign approach                       |
+|      | Observed single-outlet flow confirms imbalance                           | Matches theoretical failure mode                     | Justifies redesign approach                       |
 
 ---
 
