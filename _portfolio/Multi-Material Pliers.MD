@@ -4,6 +4,8 @@ excerpt: "A multi-part, clearance-fit plier mechanism using rigid-body linkages 
 header:
   image: /assets/img/pliers real.jpg
   teaser: /assets/img/pliers singai.png
+gallery:
+  image_path: assets/img/concept sketch.png
 
 ---
 
@@ -55,8 +57,6 @@ header:
 ---
 
 ## Design & Iteration Process
-
-image_path: assets/img/concept sketch.png
 
 The design process focused on achieving reliable motion through **geometric precision rather than compliant materials**:
 
