@@ -4,6 +4,8 @@ excerpt: "A multi-part, clearance-fit plier mechanism using rigid-body linkages 
 header:
   image: /assets/img/pliers real.jpg
   teaser: /assets/img/pliers singai.png
+gallery:
+  image: /assets/img/concept sketch.jpg
 
 ---
 
@@ -56,8 +58,6 @@ header:
 
 ## Design & Iteration Process
 
-image: /assets/img/concept sketch.jpg
-
 The design process focused on achieving reliable motion through **geometric precision rather than compliant materials**:
 
 * Early concepts explored single-body print-in-place mechanisms but were limited by friction and inconsistent movement due to layer adhesion and surface irregularities inherent to FDM printing.
@@ -94,6 +94,11 @@ Reference: https://all3dp.com/3d-printed-flexible-pliers/
 
 ## Gallery
 
+| First Print | Second Print |
+|------------|-------------|
+| ![First Print](/assets/pliers first cap.jpeg) | ![Second Print](/assets/pliers second cap.jpeg) |
+| ![First Print](/assets/pliers first cap 2.jpeg) | ![Second Print](/assets/img/pliers second cap 2.jpeg) |
+| [![First Print](https://img.youtube.com/vi/689a25_TDfA/0.jpg)](https://youtu.be/689a25_TDfA) | [![Second Print](https://img.youtube.com/vi/B4Junn79zOE/0.jpg)](https://youtube.com/shorts/B4Junn79zOE?feature=share) |
 ---
 
 # CAD Model
