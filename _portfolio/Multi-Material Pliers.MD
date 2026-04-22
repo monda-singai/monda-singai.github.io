@@ -40,9 +40,9 @@ gallery:
 | Wall Count | 2 (legs) / 5 (pivot + cap) |
 | Print Speed |90 mm/s |
 |----------|------|------|
-| Overall Length | ~120–150 mm | Compact handheld size |
-| Jaw Length | ~25–40 mm | Optimized for precision work |
-| Jaw Capacity | ~10–20 mm | Dependent on linkage geometry |
+| Overall Length | ~98 mm | Compact handheld size |
+| Jaw Length | 23 mm | Optimized for precision work |
+| Jaw Capacity | 23 mm | Inependent of linkage geometry |
 | Assembly | No tools required | Print-in-place / press-fit |
 
 --- 
