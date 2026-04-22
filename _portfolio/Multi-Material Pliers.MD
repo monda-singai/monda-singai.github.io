@@ -56,7 +56,7 @@ header:
 
 ## Design & Iteration Process
 
-- image: /assets/img/concept sketch.jpg
+image: /assets/img/concept sketch.jpg
 
 The design process focused on achieving reliable motion through **geometric precision rather than compliant materials**:
 
