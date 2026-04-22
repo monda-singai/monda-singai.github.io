@@ -92,8 +92,6 @@ Reference: https://all3dp.com/3d-printed-flexible-pliers/
 
 ---
 
-## Gallery
-
 | First Print | Second Print |
 |------------|-------------|
 | ![First Print](/assets/pliers first cap.jpeg) | ![Second Print](/assets/pliers second cap.jpeg) |
