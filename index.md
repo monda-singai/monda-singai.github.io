@@ -19,6 +19,10 @@ feature_row:
     alt: "Microfluidic PFF Device CAD Model"
     title: "Pinched Flow Fractionation Microfluidic Device Design"
     excerpt: "Parametric CAD model of a PDMS microfluidic device designed for pinch flow fractionation, featuring inlet channels, a pinch region, broadening section, and multi-outlet geometry for size-based particle separation."
+  - image_path: assets/img/pliers singai.jpg
+    alt: "Multi-Link Needle-Nose Pliers CAD Model"
+    title: "Dual-Material Needle-Nose Pliers Design"
+    excerpt: "Parametric CAD model of a dual-material needle-nose plier mechanism designed for precision gripping, featuring rigid-body linkage arms, clearance-based rotational joints, tapered jaws, and an assembly-free geometry optimized for FDM fabrication."
 
 ---
 
