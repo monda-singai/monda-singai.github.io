@@ -18,7 +18,7 @@ gallery:
   PLA is used for primary structural elements due to its stiffness and dimensional accuracy, while PETG is strategically incorporated in joint regions to improve durability, reduce brittleness, and better withstand repeated motion cycles.
 
 * **Clearance-Based Rotational Joints (Print-in-Place / Press-Fit Compatible)**  
-  Circular interfaces are designed with intentional tolerances to enable motion directly off the print bed or after light manual separation. 
+  Circular interfaces are designed to enable motion directly off the print bed or after light manual separation. 
 
 * **Precision Needle-Nose Geometry for Electronics Handling**  
   The jaw profile is optimized for gripping small components such as through-hole resistors.
