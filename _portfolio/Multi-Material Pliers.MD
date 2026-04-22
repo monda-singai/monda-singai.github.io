@@ -2,10 +2,10 @@
 title: "Multi-Link Needle-Nose Pliers with Dual-Material FDM Fabrication"
 excerpt: "A multi-part, clearance-fit plier mechanism using rigid-body linkages and dual-material printing (PLA + PETG) to enable smooth rotational motion and precision gripping."
 header:
-  image: /assets/img/pliers second cap.jpeg
+  image: assets/img/pliers second cap.jpeg
   teaser: /assets/img/pliers singai.png
 gallery:
-  - image_path: /assets/img/concept sketch.jpg
+  - image_path: assets/img/concept sketch.jpg
 
 ---
 
@@ -94,9 +94,10 @@ Reference: https://all3dp.com/3d-printed-flexible-pliers/
 
 | First Print | Second Print |
 |------------|-------------|
-| ![First Print](/assets/pliers first cap.jpeg) | ![Second Print](/assets/pliers second cap.jpeg) |
-| ![First Print](/assets/pliers first cap 2.jpeg) | ![Second Print](/assets/img/pliers second cap 2.jpeg) |
+| ![First Print](/assets/img/pliers%20first%20cap.jpeg) | ![Second Print](/assets/img/pliers%20second%20cap.jpeg) |
+| ![First Print](/assets/img/pliers%20first%20cap%20 2.jpeg) | ![Second Print](/assets/img/pliers%20second%20cap 2.jpeg) |
 | [![First Print](https://img.youtube.com/vi/689a25_TDfA/0.jpg)](https://youtu.be/689a25_TDfA) | [![Second Print](https://img.youtube.com/vi/B4Junn79zOE/0.jpg)](https://youtube.com/shorts/B4Junn79zOE?feature=share) |
+
 ---
 
 # CAD Model
