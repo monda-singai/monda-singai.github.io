@@ -5,7 +5,7 @@ header:
   image: /assets/img/pliers real.jpg
   teaser: /assets/img/pliers singai.png
 gallery:
-  image_path: assets/img/concept sketch.png
+  image_path: assets/img/concept sketch.jpg
 
 ---
 
