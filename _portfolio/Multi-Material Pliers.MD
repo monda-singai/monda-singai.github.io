@@ -31,17 +31,19 @@ header:
 
 ## Specs
 
+| Printer Type | Bambu Lab P1S |
+| Layer Height | 0.2 mm |
+| Nozzle Diameter | 0.4 mm |
+| Infill | 20% PETG / 15% PLA |
+| Wall Count | 2 (legs) / 5 (pivot + cap) |
+| Print Speed |90 mm/s |
 |----------|------|------|
 | Overall Length | ~120–150 mm | Compact handheld size |
 | Jaw Length | ~25–40 mm | Optimized for precision work |
 | Jaw Capacity | ~10–20 mm | Dependent on linkage geometry |
-| Materials | PLA + PETG | Structural + joint durability |
-| Mechanism Type | Multi-link rigid-body system | Clearance-based rotation |
 | Assembly | No tools required | Print-in-place / press-fit |
 
----
-
-## Materials & Components
+--- 
 
 | Component | Material | Function |
 |----------|----------|----------|
@@ -49,19 +51,6 @@ header:
 | Jaw Sections | PLA | Precision gripping interface |
 | Linkage Arms | PLA | Force transmission |
 | Joint Interfaces | PETG | Rotational motion + wear resistance |
-
----
-
-## Print Settings
-
-|----------|------|
-| Printer Type | Bambu Lab P1S |
-| Layer Height | 0.2 mm |
-| Nozzle Diameter | 0.4 mm |
-| Infill | 20% PETG / 15% PLA |
-| Wall Count | 2 (legs) / 5 (pivot + cap) |
-| Print Speed |90 mm/s |
-| Support Material | yes |
 
 ---
 
