@@ -94,9 +94,6 @@ Reference: https://all3dp.com/3d-printed-flexible-pliers/
 
 ## Gallery
 
-- image_path: assets/img/concept sketch.png
-- image_path: assets/img/concept sketch.png
-
 ---
 
 # CAD Model
