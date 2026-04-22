@@ -61,7 +61,7 @@ header:
 The design process focused on achieving reliable motion through **geometric precision rather than compliant materials**:
 
 * Early concepts explored single-body print-in-place mechanisms but were limited by friction and inconsistent movement due to layer adhesion and surface irregularities inherent to FDM printing.
-* A key design constraint was maintaining an overall footprint approximately within the dimensions of a standard business card (80 mm × 505 mm), requiring careful packaging of linkages and joints without sacrificing functionality.
+* A key design constraint was maintaining an overall footprint approximately within the dimensions of a standard business card (80 mm × 50 mm).
 * The design evolved into a multi-link rigid-body system, improving motion control and distributing forces across multiple rotational joints.
 * A dual-material strategy (PLA + PETG) was introduced, where PLA provides structural rigidity in the handles and linkages, while PETG is used in select regions to improve durability and introduce localized compliance at contact interfaces.
 
@@ -77,7 +77,7 @@ Print-in-place mechanisms allow multiple moving components to be fabricated in a
 
 Applications include hinges, articulated tools, and mechanical linkages. Unlike compliant mechanisms, which rely on elastic deformation, this design uses **rigid-body motion through discrete joints**.
 
-Reference example: https://all3dp.com/3d-printed-flexible-pliers/
+Reference: https://all3dp.com/3d-printed-flexible-pliers/
 
 ---
 
@@ -94,7 +94,8 @@ Reference example: https://all3dp.com/3d-printed-flexible-pliers/
 
 ## Gallery
 
-{% include gallery caption="Design iterations, joint tolerance test prints, final plier assembly, and multi-link mechanism illustrating clearance-based rotational motion and dual-material construction." %}
+- image_path: assets/img/concept sketch.png
+- image_path: assets/img/concept sketch.png
 
 ---
 
