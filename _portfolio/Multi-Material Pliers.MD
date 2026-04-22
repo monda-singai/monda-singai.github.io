@@ -100,6 +100,9 @@ Reference: https://all3dp.com/3d-printed-flexible-pliers/
 
 ---
 
+{% include gallery caption="Initial Design Sketch & Considerations." %}
+
+
 # CAD Model
 
 <iframe src="https://a360.co/4tTH9rC" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
