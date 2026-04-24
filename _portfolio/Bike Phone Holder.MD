@@ -60,6 +60,12 @@ The device was fabricated using a Bambu Lab P1S printer. This method was selecte
 - **PLA** was used for the primary structural components due to its stiffness and dimensional accuracy
 - In high-wear or motion-critical regions, **PETG** was considered or used to improve durability and reduce brittleness
 
+|----------|------------------|----------|
+| Handlebar Clamp | FDM (PLA) | Requires rigidity and dimensional accuracy for secure mounting |
+| Phone Support | FDM (PLA) | Provides stable platform for device |
+| Rotational Interface | FDM (PLA/PETG) | Requires controlled clearance and durability under repeated motion |
+| Detent Features | FDM (integrated geometry) | Enables discrete positioning without additional hardware |
+
 ---
 
 ### Assembly & Instructions
@@ -67,36 +73,27 @@ The device was fabricated using a Bambu Lab P1S printer. This method was selecte
 The phone holder is designed for minimal assembly, relying primarily on print-in-place features and press-fit connections.
 
 To assemble this device:
-1. **Separate Moving Interfaces**
-   - Gently apply rotational force to the joint to break any residual adhesion from the printing process.
-   - Ensure smooth rotation before proceeding.
+1. **Prepare Printed Components**
+   - Remove all printed parts from the build plate and clear any support material.
+   - Lightly clean mating surfaces to ensure proper fit and smooth rotation.
 
-2. **Attach Rotational Components**
-   - Align the rotating interface components along the central axis.
-   - Press-fit the components together until fully seated.
-   - Verify that the rotation mechanism moves freely without excessive play.
+2. **Assemble Rotational Interface**
+   - Align the rotating phone holder component with the base mount along the central axis.
+   - Insert the central fastener (e.g., screw/bolt) through the rotation joint.
+   - Tighten to a level that allows rotation while maintaining positional stability.
 
-3. **Secure Phone Support Structure**
-   - Attach the phone holder section to the rotating base.
-   - Ensure proper alignment to maintain balance during use.
+3. **Attach Phone Holder to Base**
+   - Secure the phone holder structure to the rotating interface. Ensure all connections are fully seated and aligned.
 
-4. **Mount to Handlebars**
-   - Open the clamp interface and position it onto the bicycle handlebars.
-   - Screw into place until securely fastened.
-   - Confirm that the mount does not slip under light force.
- 
+4. **Install Handlebar Clamp**
+   - Position the clamp around the bicycle handlebars.
+   - Insert and tighten the fastener(s) until the mount is firmly secured.
+   - Confirm that the mount does not rotate or slip under moderate force.
+
 To use the device:
 1. Attach the mount securely to the bicycle handlebars.
 2. Insert the phone into the holder.
 3. Rotate the holder between portrait and landscape orientations as needed. The detent mechanism will engage to hold the selected position during use.
-
----
-
-|----------|------------------|----------|
-| Handlebar Clamp | FDM (PLA) | Requires rigidity and dimensional accuracy for secure mounting |
-| Phone Support | FDM (PLA) | Provides stable platform for device |
-| Rotational Interface | FDM (PLA/PETG) | Requires controlled clearance and durability under repeated motion |
-| Detent Features | FDM (integrated geometry) | Enables discrete positioning without additional hardware |
 
 ---
 
