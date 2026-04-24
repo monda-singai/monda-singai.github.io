@@ -23,6 +23,10 @@ feature_row:
     alt: "Multi-Link Needle-Nose Pliers CAD Model"
     title: "Dual-Material Needle-Nose Pliers Design"
     excerpt: "Parametric CAD model of a dual-material needle-nose plier mechanism designed for precision gripping, featuring rigid-body linkage arms, clearance-based rotational joints, tapered jaws, and an assembly-free geometry optimized for FDM fabrication."
+  - image_path: assets/img/phone-holder-cad.png
+    alt: "Rotating Bicycle Phone Holder CAD Model"
+    title: "Top-Down Designed Phone Mount with Detent Mechanism"
+    excerpt: "Top-down parametric CAD model of a multi-component phone holder integrating a detent-based rotation system, tolerance-aware interfaces, and a handlebar mounting structure, optimized for FDM manufacturability, structural stability, and controlled orientation adjustment."
 
 ---
 
