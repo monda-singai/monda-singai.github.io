@@ -20,7 +20,7 @@ gallery:
 
 In this method, the design process begins with a master layout that defines the overall system geometry, key dimensions, and functional relationships between components. Rather than modeling parts independently, a central skeleton sketch was created to establish critical parameters such as handlebar diameter, phone dimensions, and the rotational axis of the holder.
 
-All components—including the handlebar mount, rotating interface, and phone support—were derived from this master geometry and constrained accordingly. This ensured that any dimensional changes propagated consistently across the entire assembly. This approach was particularly effective for this assignment because the device’s performance depends on precise alignment between multiple interacting parts, especially within the rotational mechanism.
+All components were derived from this master geometry and constrained accordingly. This ensured that any dimensional changes propagated consistently across the entire assembly. This approach was particularly effective for this assignment because the device’s performance depends on precise alignment between multiple interacting parts, especially within the rotational mechanism.
 
 ---
 
