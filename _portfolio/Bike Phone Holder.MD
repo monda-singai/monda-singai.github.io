@@ -84,8 +84,8 @@ Several dimensional modifications were required to account for the constraints o
 ### Iteration Timeline
 
 |----------|-------|---------------|--------|
-| Initial Concept | ![Initial Sketch](/assets/img/initial-print.jpg) | Established overall holder form, handlebar mount, and rotating phone interface. Defined the baseline design direction. |
-| Second Concept | ![Second Print](/assets/img/second-print.jpg) | Adjusted dimensions for smoother rotation and better handlebar fit. Improved printability, usability, and mechanism reliability. |
+| Initial Concept | ![Initial Sketch](/assets/img/initial-print.jpeg) | Established overall holder form, handlebar mount, and rotating phone interface. Defined the baseline design direction. |
+| Second Concept | ![Second Print](/assets/img/second-print.jpeg) | Adjusted dimensions for smoother rotation and better handlebar fit. Improved printability, usability, and mechanism reliability. |
 
 ---
 
