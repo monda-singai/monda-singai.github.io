@@ -29,7 +29,7 @@ As the holder rotates, these features engage and disengage, producing a tactile 
 
 ---
 
-## CAD Model Comparison
+### CAD Model Comparison
 
 <table>
   <tr>
@@ -81,7 +81,7 @@ Several dimensional modifications were required to account for the constraints o
 - Tolerance adjustments were introduced at rotational interfaces to prevent fusion between moving part 
 - Minor offsets were applied to compensate for material expansion and layer-based inaccuracies
 
-## Iteration Timeline
+### Iteration Timeline
 
 |----------|-------|---------------|--------|
 | Initial Concept | ![Initial Sketch](/assets/img/initial-print.jpg) | Established overall holder form, handlebar mount, and rotating phone interface. Defined the baseline design direction. |
