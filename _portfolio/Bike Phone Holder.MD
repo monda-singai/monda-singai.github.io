@@ -72,8 +72,8 @@ The device was fabricated using a Bambu Lab P1S printer. This method was selecte
 |----------|----------|----------|
 | Handlebar (Reference) | N/A | Reference geometry used to define clamp diameter and fit in top-down model |
 | Clamp | PLA | Secures mount to handlebars via flex/snap geometry; primary load-bearing interface |
-| Grip | PETG | Interfaces between clamp and rotating assembly; stabilizes mount and distributes load |
-| Vertical Connector v6 | PLA | Transfers load from clamp to phone mount; maintains structural alignment |
+| Grip | PETG | Internal insert that sits inside the clamp to improve contact with the handlebar and reduce slipping |
+| Vertical Connector | PLA | Transfers load from clamp to phone mount; maintains structural alignment |
 | Horizontal Connector | PLA | Provides lateral support and spacing between mount components |
 | Rotational Ground Component | PLA | Base element of rotation interface; anchors rotational motion to mount structure |
 | Phone Case Attachment | PLA | Primary interface between phone and mount; supports device and transfers load |
