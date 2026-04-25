@@ -68,11 +68,17 @@ The device was fabricated using a Bambu Lab P1S printer. This method was selecte
 - **PLA** was used for the primary structural components due to its stiffness and dimensional accuracy
 - In high-wear or motion-critical regions, **PETG** was considered or used to improve durability and reduce brittleness
 
-|----------|------------------|----------|
-| Clamp | PLA | Requires rigidity and dimensional accuracy for secure mounting |
-| Phone Support | PLA | Provides stable platform for device |
-| Rotational Interface | PLA | Requires controlled clearance and durability under repeated motion |
-| Spring x2 | PETG | Enables discrete positioning without additional hardware |
+| Component | Material | Function |
+|----------|----------|----------|
+| Handlebar (Reference) | N/A | Reference geometry used to define clamp diameter and fit in top-down model |
+| Clamp | PLA | Secures mount to handlebars via flex/snap geometry; primary load-bearing interface |
+| Grip | PETG | Interfaces between clamp and rotating assembly; stabilizes mount and distributes load |
+| Vertical Connector v6 | PLA | Transfers load from clamp to phone mount; maintains structural alignment |
+| Horizontal Connector | PLA | Provides lateral support and spacing between mount components |
+| Rotational Ground Component | PLA | Base element of rotation interface; anchors rotational motion to mount structure |
+| Phone Case Attachment | PLA | Primary interface between phone and mount; supports device and transfers load |
+| Spring (x2) | PETG | Provides compliant engagement for rotational resistance / detent-like behavior |
+| 8mm M3x5.5 screw | PETG | Connects rotational interface components and maintains alignment |
 
 
 Several dimensional modifications were required to account for the constraints of the printing process:
