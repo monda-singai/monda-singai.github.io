@@ -58,6 +58,8 @@ gallery:
 
 ## Design & Iteration Process
 
+{% include gallery caption="Initial Design Sketch & Considerations." %}
+
 The design process focused on achieving reliable motion through **geometric precision rather than compliant materials**:
 
 * Early concepts explored single-body print-in-place mechanisms but were limited by friction and inconsistent movement due to layer adhesion and surface irregularities inherent to FDM printing.
@@ -99,9 +101,6 @@ Reference: https://all3dp.com/3d-printed-flexible-pliers/
 | [![First Print](https://img.youtube.com/vi/689a25_TDfA/0.jpg)](https://youtu.be/689a25_TDfA) | [![Second Print](https://img.youtube.com/vi/B4Junn79zOE/0.jpg)](https://youtube.com/shorts/B4Junn79zOE?feature=share) |
 
 ---
-
-{% include gallery caption="Initial Design Sketch & Considerations." %}
-
 
 # CAD Model
 
