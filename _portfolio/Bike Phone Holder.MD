@@ -73,8 +73,7 @@ To assemble this device:
 
 2. **Assemble Rotational Interface**
    - Align the rotating phone holder component with the base mount along the central axis.
-   - Insert the central fastener (e.g., screw/bolt) through the rotation joint.
-   - Tighten to a level that allows rotation while maintaining positional stability.
+   - Insert the springs
 
 3. **Attach Phone Holder to Base**
    - Secure the phone holder structure to the rotating interface. Ensure all connections are fully seated and aligned.
