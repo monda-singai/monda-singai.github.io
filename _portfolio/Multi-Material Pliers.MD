@@ -29,6 +29,11 @@ gallery:
 * **Parametric CAD Design in Fusion 360**  
   The model is fully constrained and parameterized, allowing rapid iteration of joint diameters, clearances, jaw length, and handle geometry to refine motion and manufacturability.
 
+
+# CAD Model
+
+<iframe src="https://a360.co/4tTH9rC" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
+
 ---
 
 ## Specs
@@ -101,7 +106,3 @@ Reference: https://all3dp.com/3d-printed-flexible-pliers/
 | [![First Print](https://img.youtube.com/vi/689a25_TDfA/0.jpg)](https://youtu.be/689a25_TDfA) | [![Second Print](https://img.youtube.com/vi/B4Junn79zOE/0.jpg)](https://youtube.com/shorts/B4Junn79zOE?feature=share) |
 
 ---
-
-# CAD Model
-
-<iframe src="https://a360.co/4tTH9rC" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
