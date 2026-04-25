@@ -29,6 +29,27 @@ As the holder rotates, these features engage and disengage, producing a tactile 
 
 ---
 
+## CAD Model Comparison
+
+<table>
+  <tr>
+    <td align="center">
+      <iframe src="https://a360.co/4mRaLUq" width="320" height="240" frameborder="0" allowfullscreen></iframe>
+    </td>
+    <td align="center">
+      <iframe src="https://a360.co/41S8kHG" width="320" height="240" frameborder="0" allowfullscreen></iframe>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      Early top-down CAD model showing the initial layout and component relationships.
+    </td>
+    <td align="center">
+      Refined CAD model with updated geometry and print-aware dimensions.
+    </td>
+  </tr>
+</table>
+
 ### Design Rationale
 
 The primary objective of the design was to develop a **stable, rotatable mounting system** that allows a phone to switch between portrait and landscape orientations while remaining secure during use. The design prioritizes:
@@ -60,6 +81,12 @@ Several dimensional modifications were required to account for the constraints o
 - Tolerance adjustments were introduced at rotational interfaces to prevent fusion between moving part 
 - Minor offsets were applied to compensate for material expansion and layer-based inaccuracies
 
+## Iteration Timeline
+
+|----------|-------|---------------|--------|
+| Initial Concept | ![Initial Sketch](/assets/img/initial-print.jpg) | Established overall holder form, handlebar mount, and rotating phone interface. Defined the baseline design direction. |
+| Second Concept | ![Second Print](/assets/img/second-print.jpg) | Adjusted dimensions for smoother rotation and better handlebar fit. Improved printability, usability, and mechanism reliability. |
+
 ---
 
 ### Assembly & Instructions
@@ -90,30 +117,4 @@ To use the device:
 
 ---
 
-## Iteration Timeline
 
-|----------|-------|---------------|--------|
-| Initial Concept | ![Initial Sketch](/assets/img/initial-print.jpg) | Established overall holder form, handlebar mount, and rotating phone interface. Defined the baseline design direction. |
-| Second Concept | ![Second Print](/assets/img/second-print.jpg) | Adjusted dimensions for smoother rotation and better handlebar fit. Improved printability, usability, and mechanism reliability. |
-
-
-## CAD Model Comparison
-
-<table>
-  <tr>
-    <td align="center">
-      <iframe src="https://a360.co/4mRaLUq" width="320" height="240" frameborder="0" allowfullscreen></iframe>
-    </td>
-    <td align="center">
-      <iframe src="https://a360.co/41S8kHG" width="320" height="240" frameborder="0" allowfullscreen></iframe>
-    </td>
-  </tr>
-  <tr>
-    <td align="center">
-      Early top-down CAD model showing the initial layout and component relationships.
-    </td>
-    <td align="center">
-      Refined CAD model with updated geometry and print-aware dimensions.
-    </td>
-  </tr>
-</table>
