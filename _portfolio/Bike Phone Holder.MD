@@ -8,11 +8,10 @@ gallery:
   - image_path: assets/img/initial-sketch.jpg
   - image_path: assets/img/inspiration-1.jpg
   - image_path: assets/img/inspiration-2.jpg
-  - image_path: assets/img/inspiration-3.jpg
-  - image_path: assets/img/inspiration-4.jpg
+
 ---
 
-{% include gallery caption="Initial sketch and design inspirations used to guide the phone holder form, mounting strategy, and rotating interface." %}
+{% include gallery caption="Initial sketch and design considerations as well as inspirations used to guide the phone holder form, mounting strategy, and rotating interface." %}
 
 ---
 
@@ -49,10 +48,10 @@ The device was fabricated using a Bambu Lab P1S printer. This method was selecte
 - In high-wear or motion-critical regions, **PETG** was considered or used to improve durability and reduce brittleness
 
 |----------|------------------|----------|
-| Handlebar Clamp | FDM (PLA) | Requires rigidity and dimensional accuracy for secure mounting |
-| Phone Support | FDM (PLA) | Provides stable platform for device |
-| Rotational Interface | FDM (PLA/PETG) | Requires controlled clearance and durability under repeated motion |
-| Detent Features | FDM (integrated geometry) | Enables discrete positioning without additional hardware |
+| Clamp | PLA | Requires rigidity and dimensional accuracy for secure mounting |
+| Phone Support | PLA | Provides stable platform for device |
+| Rotational Interface | PLA | Requires controlled clearance and durability under repeated motion |
+| Spring x2 | PETG | Enables discrete positioning without additional hardware |
 
 
 Several dimensional modifications were required to account for the constraints of the printing process:
