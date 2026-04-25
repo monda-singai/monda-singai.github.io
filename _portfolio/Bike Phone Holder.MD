@@ -81,7 +81,7 @@ To assemble this device:
 
 4. **Install Handlebar Clamp**
    - Position the clamp around the bicycle handlebars.
-   - Insert and tighten the fastener(s) until the mount is firmly secured.
+   - Insert and tighten the fastener until the mount is firmly secured.
    - Confirm that the mount does not rotate or slip under moderate force.
 
 To use the device:
@@ -94,8 +94,8 @@ To use the device:
 ## Iteration Timeline
 
 |----------|-------|---------------|--------|
-| Initial Concept | ![Initial Sketch](/assets/img/initial-sketch.jpg) | Established overall holder form, handlebar mount, and rotating phone interface. Defined the baseline design direction. |
-| Final Concept | ![Second Print](/assets/img/second-print.jpg) | Adjusted dimensions for smoother rotation and better handlebar fit. Improved printability, usability, and mechanism reliability. |
+| Initial Concept | ![Initial Sketch](/assets/img/initial-print.jpg) | Established overall holder form, handlebar mount, and rotating phone interface. Defined the baseline design direction. |
+| Second Concept | ![Second Print](/assets/img/second-print.jpg) | Adjusted dimensions for smoother rotation and better handlebar fit. Improved printability, usability, and mechanism reliability. |
 
 
 ## CAD Model Comparison
