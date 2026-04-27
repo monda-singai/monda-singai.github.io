@@ -51,8 +51,8 @@ As the holder rotates, these features engage and disengage, producing a tactile 
 </table>
 
 ### Rotation Mechanism
-
-image: assets/img/jpeg
+|-------|-------|
+| image: assets/img/jpeg | [![First Print](https://img.youtube.com//0.jpg)](https://youtu.be/) |
 
 ### Design Rationale
 
