@@ -96,7 +96,7 @@ Several dimensional modifications were required to account for the constraints o
 |----------|-------|---------------|--------|
 | Initial Concept | ![Initial Sketch](/assets/img/initial-print.jpeg) | Established overall holder form, handlebar mount, and rotating phone interface. Defined the baseline design direction. |
 | Second Concept | ![Second Print](/assets/img/second-print.jpeg) | Adjusted dimensions for smoother rotation and better handlebar fit. Improved printability, usability, and mechanism reliability. |
-| Final Concept | ![Final Print](/assets/img/second-print.jpeg) | All parts printed. |
+| Final Concept | ![Final Print](/assets/img/.jpeg) | All parts printed. |
 
 ---
 
