@@ -50,6 +50,10 @@ As the holder rotates, these features engage and disengage, producing a tactile 
   </tr>
 </table>
 
+### Rotation Mechanism
+
+image: assets/img/jpeg
+
 ### Design Rationale
 
 The primary objective of the design was to develop a **stable, rotatable mounting system** that allows a phone to switch between portrait and landscape orientations while remaining secure during use. The design prioritizes:
@@ -92,6 +96,7 @@ Several dimensional modifications were required to account for the constraints o
 |----------|-------|---------------|--------|
 | Initial Concept | ![Initial Sketch](/assets/img/initial-print.jpeg) | Established overall holder form, handlebar mount, and rotating phone interface. Defined the baseline design direction. |
 | Second Concept | ![Second Print](/assets/img/second-print.jpeg) | Adjusted dimensions for smoother rotation and better handlebar fit. Improved printability, usability, and mechanism reliability. |
+| Final Concept | ![Final Print](/assets/img/second-print.jpeg) | All parts printed. |
 
 ---
 
