@@ -80,7 +80,7 @@ The device was fabricated using a Bambu Lab P1S printer. This method was selecte
 | Vertical Connector | PLA | Transfers load from clamp to phone mount; maintains structural alignment |
 | Horizontal Connector | PLA | Provides lateral support and spacing between mount components |
 | Rotational Ground Component | PLA | Base element of rotation interface; anchors rotational motion to mount structure |
-| Phone Case Attachment | PLA | Primary interface between phone and mount; supports device and transfers load |
+| Phone Case Attachment | TPU | Primary interface between phone and mount; supports device and transfers load |
 | Spring (x2) | Resin | Provides compliant engagement for rotational resistance / detent-like behavior |
 | 8mm M3x5.5 screw | PETG | Connects rotational interface components and maintains alignment |
 
