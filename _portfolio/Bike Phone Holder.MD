@@ -71,6 +71,8 @@ The device was fabricated using a Bambu Lab P1S printer. This method was selecte
 
 - **PLA** was used for the primary structural components due to its stiffness and dimensional accuracy
 - In high-wear or motion-critical regions, **PETG** was considered or used to improve durability and reduce brittleness
+- **TPU** was used for compliant interface components due to its elasticity, high friction coefficient, and vibration damping characteristics, improving grip and reducing slip under dynamic loading  
+- **Resin** was used for small compliant elements requiring high precision and fine feature resolution, enabling controlled deflection behavior in low-load applications
 
 | Component | Material | Function |
 |----------|----------|----------|
