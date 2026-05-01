@@ -1,0 +1,124 @@
+---
+title: "Generative Design Skateboard Truck Hanger with Integrated Motor Mount"
+excerpt: "A generatively designed skateboard hanger integrating a motor mount, optimized for multi-load structural performance and validated through physical prototyping and motion testing."
+header:
+  image: assets/img/hanger_print.jpeg
+  teaser: assets/img/fusion_screenshot.png
+gallery:
+  - image_path: https://img.youtube.com/vi/wKyO-cM58ZA/0.jpg
+    url: https://youtube.com/shorts/wKyO-cM58ZA?si=Mojr8-GFGCTmXXn6
+    title: "Turning Clearance Validation"
+    caption: "Demonstrates full rotational clearance about the pivot/kingpin interface. Confirms obstacle geometry correctly preserved the non-circular kingpin cutout required for hanger installation and turning motion."
+  - image_path: https://img.youtube.com/vi/fBsBa_YhUW4/0.jpg
+    url: https://youtube.com/shorts/fBsBa_YhUW4?si=F9TkQBfTNW-uFVhH
+    title: "Motor, Pulley, and Belt Operation"
+    caption: "Validates continuous rotation of the belt-driven system. Confirms proper clearance between hanger geometry and drivetrain components under motion."
+---
+
+This project applies generative design to develop a lightweight skateboard truck hanger with an integrated motor mount. The objective was to consolidate structural and drivetrain components into a single optimized geometry while maintaining full assembly functionality, including turning clearance and belt-driven motion.
+
+---
+
+## Outcomes
+
+<table>
+  <tr>
+    <td align="center">
+      <iframe src="https://a360.co/4mRaLUq" width="320" height="240" frameborder="0" allowfullscreen></iframe>
+    </td>
+    <td align="center">
+      <iframe src="https://a360.co/41S8kHG" width="320" height="240" frameborder="0" allowfullscreen></iframe>
+    </td>
+    <td align="center">
+      <iframe src="https://a360.co/REPLACE_WITH_NYLON" width="320" height="240" frameborder="0" allowfullscreen></iframe>
+    </td>
+  </tr>
+  <tr>
+    <td align="center"><b>AlSi10Mg</b></td>
+    <td align="center"><b>17-4 PH</b></td>
+    <td align="center"><b>Nylon 12 (Prototype)</b></td>
+  </tr>
+  <tr>
+    <td align="center">
+      Lightweight, organic geometry optimized for mass reduction.  
+      Lower density results in thinner members and more aggressive material removal.
+    </td>
+    <td align="center">
+      Thicker, more robust geometry due to higher strength and stiffness.  
+      Increased density results in more conservative load paths.
+    </td>
+    <td align="center">
+      Used for fit and assembly validation only.  
+      Confirms clearances, accessibility, and motion requirements.
+    </td>
+  </tr>
+</table>
+
+---
+
+| Load Name | Magnitude | Location | Direction | Rationale |
+|---|---:|---|---|---|
+| Rider Load | 800 N | Axle ends | Downward | Represents rider weight through wheels |
+| Turning Load | 200 N | Axle ends | Lateral | Simulates carving forces |
+| Braking Load | 200 N | Axle ends | Longitudinal | Represents deceleration |
+| Belt Force | 250 N | Motor mount | Along belt path | Simulates belt tension |
+| Motor Torque | 4 N·m | Motor interface | About shaft axis | Represents motor output |
+
+**Constraints**
+- Fixed: pivot interface + kingpin/bushing region  
+- Free: axle, motor mount, wheels  
+
+**Load Cases**
+- Rider  
+- Turning  
+- Braking  
+- Belt tension  
+- Motor torque  
+
+---
+
+## Discussion
+
+Generative design is most effective when paired with powder bed fusion (PBF) because both enable complex geometries that cannot be manufactured using traditional methods. A strong commercial example is General Motors’ generatively designed seat bracket, which reduced an 8-part assembly into a single component while achieving a 40% weight reduction and increased stiffness:
+
+---
+
+Generative design results are entirely dependent on applied loads. If loads are unrealistic or incomplete, the resulting geometry will not reflect real-world performance.
+
+Loads in this study were determined by analyzing force flow in the system:
+- Rider loads enter through the axle  
+- Motor forces enter through the motor mount  
+- Loads transfer to the deck through the pivot and kingpin  
+
+Improving this process could include:
+- Experimental measurement of belt tension  
+- Dynamic loading conditions (impacts, vibration)  
+- Modeling compliant bushings instead of fixed constraints  
+
+---
+
+The AlSi10Mg outcome prioritized weight reduction, producing thinner, more organic structures due to its lower density. In contrast, the 17-4 PH solution resulted in thicker, more conservative geometries, reflecting its higher strength and stiffness.
+
+This comparison highlights how generative design adapts geometry based on material properties:
+- Aluminum → efficiency-driven design  
+- Steel → strength-driven design  
+
+---
+
+Generative design is highly effective for identifying efficient load paths and reducing unnecessary material, but its usefulness depends heavily on input quality.
+
+**Strengths:**
+- Produces lightweight, optimized structures  
+- Enables integration of multiple components  
+- Explores a large design space quickly  
+
+**Limitations:**
+- Highly sensitive to load and constraint assumptions  
+- Results may be difficult to manufacture or validate  
+- Requires post-processing to remove impractical features  
+- Does not inherently account for real-world variability (fatigue, wear, tolerances)  
+
+**Most useful applications:**
+- Aerospace (weight-critical components)  
+- Automotive (structural brackets, mounts)  
+- Robotics and electromechanical systems  
