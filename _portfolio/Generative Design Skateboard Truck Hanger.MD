@@ -7,8 +7,6 @@ header:
 
 ---
 
-# Outcomes
-
 <table>
   <tr>
     <td align="center">
