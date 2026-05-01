@@ -2,14 +2,14 @@
 title: "Generative Design Skateboard Truck Hanger with Integrated Motor Mount"
 excerpt: "A generatively designed skateboard hanger integrating a motor mount, optimized for multi-load structural performance and validated through physical prototyping and motion testing."
 header:
-  image: assets/img/hanger_print.jpeg
-  teaser: assets/img/fusion_screenshot.png
+  image: assets/img/back-assembly.jpeg
+  teaser: assets/img/front-part.jpeg
 gallery:
-  - image_path: https://img.youtube.com/vi/wKyO-cM58ZA/0.jpg
+  - image_path: https://youtube.com/shorts/wKyO-cM58ZA?si=Mojr8-GFGCTmXXn6/0.jpg
     url: https://youtube.com/shorts/wKyO-cM58ZA?si=Mojr8-GFGCTmXXn6
     title: "Turning Clearance Validation"
-    caption: "Demonstrates full rotational clearance about the pivot/kingpin interface. Confirms obstacle geometry correctly preserved the non-circular kingpin cutout required for hanger installation and turning motion."
-  - image_path: https://img.youtube.com/vi/fBsBa_YhUW4/0.jpg
+    caption: "Does not demonstrate rotational clearance about the pivot/kingpin interface since hanger-truck geometry was preserved for this generative study. The generated body presented as an obstacle when trying to insert into the designated pivot."
+  - image_path: https://youtube.com/shorts/fBsBa_YhUW4?si=F9TkQBfTNW-uFVhH/0.jpg
     url: https://youtube.com/shorts/fBsBa_YhUW4?si=F9TkQBfTNW-uFVhH
     title: "Motor, Pulley, and Belt Operation"
     caption: "Validates continuous rotation of the belt-driven system. Confirms proper clearance between hanger geometry and drivetrain components under motion."
@@ -21,13 +21,13 @@ gallery:
 <table>
   <tr>
     <td align="center">
-      <iframe src="https://a360.co/4mRaLUq" width="320" height="240" frameborder="0" allowfullscreen></iframe>
+      <iframe src="https://a360.co/4t4dV8V" width="320" height="240" frameborder="0" allowfullscreen></iframe>
     </td>
     <td align="center">
-      <iframe src="https://a360.co/41S8kHG" width="320" height="240" frameborder="0" allowfullscreen></iframe>
+      <iframe src="https://a360.co/4w4x2lS" width="320" height="240" frameborder="0" allowfullscreen></iframe>
     </td>
     <td align="center">
-      <iframe src="https://a360.co/REPLACE_WITH_NYLON" width="320" height="240" frameborder="0" allowfullscreen></iframe>
+      <iframe src="https://a360.co/4didzql" width="320" height="240" frameborder="0" allowfullscreen></iframe>
     </td>
   </tr>
   <tr>
@@ -53,24 +53,17 @@ gallery:
 
 ---
 
-| Load Name | Magnitude | Location | Direction | Rationale |
+| Load | Magnitude | Location | Direction | Rationale |
 |---|---|---|---|---|
-| Rider Load | 800 N | Axle ends | Downward | Represents rider weight through wheels |
-| Turning Load | 200 N | Axle ends | Lateral | Simulates carving forces |
-| Braking Load | 200 N | Axle ends | Longitudinal | Represents deceleration |
+| Rider + board | 800 N | Axle ends | Downward | Represents rider weight through wheels |
+| Turning | 200 N | Axle ends | opposite and parallel in the vertical direction | Simulates carving forces |
+| Braking | 250 N | Axle ends | Longitudinal | Represents deceleration |
 | Belt Force | 250 N | Motor mount | Along belt path | Simulates belt tension |
-| Motor Torque | 4 N·m | Motor interface | About shaft axis | Represents motor output |
+| Torque (moment) | 5 N·m | Motor interface | About shaft axis | Represents motor output |
 
 ## Constraints
 * Fixed: pivot interface + kingpin/bushing region  
 * Free: axle, motor mount, wheels  
-
-## Load Cases
-* Rider  
-* Turning  
-* Braking  
-* Belt tension  
-* Motor torque  
 
 ---
 
@@ -94,9 +87,7 @@ Improving this process could include:
 
 ---
 
-The AlSi10Mg outcome prioritized weight reduction, producing thinner, more organic structures due to its lower density. In contrast, the 17-4 PH solution resulted in thicker, more conservative geometries, reflecting its higher strength and stiffness.
-
-This comparison highlights how generative design adapts geometry based on material properties:
+The 17-4 PH outcome prioritized weight reduction, producing thinner, more organic structures due to its lower density. In contrast, the AlSi10Mg solution resulted in thicker, more conservative geometries.
 * Aluminum → efficiency-driven design  
 * Steel → strength-driven design  
 
@@ -113,9 +104,8 @@ Generative design is highly effective for identifying efficient load paths and r
 * Highly sensitive to load and constraint assumptions  
 * Results may be difficult to manufacture or validate  
 * Requires post-processing to remove impractical features  
-* Does not inherently account for real-world variability (fatigue, wear, tolerances)  
 
 ## Most useful applications:
-* Aerospace (weight-critical components)  
-* Automotive (structural brackets, mounts)  
+* Weight-critical components which do not need to be mass-produced   
+* Complex structural brackets / mounts  
 * Robotics and electromechanical systems  
