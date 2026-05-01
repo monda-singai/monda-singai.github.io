@@ -46,6 +46,15 @@ The 17-4 PH outcome prioritized weight reduction, producing thinner, more organi
 
 ---
 
+Loads in this study were determined by analyzing force flow in the system:
+* Rider loads enter through the axle  
+* Motor forces enter through the motor mount  
+* Loads transfer to the deck through the pivot and kingpin  
+
+Improving this process could include:
+* Experimental measurement of belt tension  
+* Dynamic loading conditions (impacts, vibration)
+
 | Load | Magnitude | Location | Direction | Rationale |
 |---|---|---|---|---|
 | Rider + board | 800 N | Axle ends | Downward | Represents rider weight through wheels |
@@ -56,15 +65,6 @@ The 17-4 PH outcome prioritized weight reduction, producing thinner, more organi
 
 ## Constraints
 * Fixed: pivot interface + kingpin/bushing region
-
-Loads in this study were determined by analyzing force flow in the system:
-* Rider loads enter through the axle  
-* Motor forces enter through the motor mount  
-* Loads transfer to the deck through the pivot and kingpin  
-
-Improving this process could include:
-* Experimental measurement of belt tension  
-* Dynamic loading conditions (impacts, vibration)
 
 |---|---|
 | [![Turning Clearance](https://img.youtube.com/vi/wKyO-cM58ZA/0.jpg)](https://youtube.com/shorts/wKyO-cM58ZA?si=Mojr8-GFGCTmXXn6) | [![Motor Belt Rotation](https://img.youtube.com/vi/fBsBa_YhUW4/0.jpg)](https://youtube.com/shorts/fBsBa_YhUW4?si=F9TkQBfTNW-uFVhH) |
