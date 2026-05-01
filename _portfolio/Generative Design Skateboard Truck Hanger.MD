@@ -80,8 +80,8 @@ Improving this process could include:
 ---
 
 The 17-4 PH outcome prioritized weight reduction, producing thinner, more organic structures due to its lower density. In contrast, the AlSi10Mg solution resulted in thicker, more conservative geometries. I filament printed the aluminum model (after editing analogous features off), though I like the steel model much more.
-* Aluminum → efficiency-driven design  
-* Steel → strength-driven design  
+* Aluminum → efficiency-driven design (lighter)
+* Steel → strength-driven design (more robust) 
 
 ---
 
