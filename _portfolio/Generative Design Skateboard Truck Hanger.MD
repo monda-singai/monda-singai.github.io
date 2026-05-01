@@ -67,7 +67,7 @@ gallery:
 
 ---
 
-{% include gallery caption="Physical validation of the generatively designed skateboard hanger." %}
+{% include gallery %}
 
 ---
 
