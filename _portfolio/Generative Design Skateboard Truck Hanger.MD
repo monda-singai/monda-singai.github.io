@@ -63,8 +63,7 @@ Improving this process could include:
 | Belt Force | 250 N | Motor mount | Along belt path | Simulates belt tension |
 | Torque (moment) | 5 N·m | Motor interface | About shaft axis | Represents motor output |
 
-## Constraints
-* Fixed: pivot interface + kingpin/bushing region
+* Constraints: pivot interface (fixed) + kingpin/bushing region (fixed)
 
 |---|---|
 | [![Turning Clearance](https://img.youtube.com/vi/wKyO-cM58ZA/0.jpg)](https://youtube.com/shorts/wKyO-cM58ZA?si=Mojr8-GFGCTmXXn6) | [![Motor Belt Rotation](https://img.youtube.com/vi/fBsBa_YhUW4/0.jpg)](https://youtube.com/shorts/fBsBa_YhUW4?si=F9TkQBfTNW-uFVhH) |
