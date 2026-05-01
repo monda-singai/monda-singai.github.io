@@ -13,6 +13,7 @@ gallery:
     url: https://youtube.com/shorts/fBsBa_YhUW4?si=F9TkQBfTNW-uFVhH
     title: "Motor, Pulley, and Belt Operation"
     caption: "Validates continuous rotation of the belt-driven system. Confirms proper clearance between hanger geometry and drivetrain components under motion."
+
 ---
 
 # Outcomes
@@ -53,7 +54,7 @@ gallery:
 ---
 
 | Load Name | Magnitude | Location | Direction | Rationale |
-|---|---:|---|---|---|
+|---|---|---|---|---|
 | Rider Load | 800 N | Axle ends | Downward | Represents rider weight through wheels |
 | Turning Load | 200 N | Axle ends | Lateral | Simulates carving forces |
 | Braking Load | 200 N | Axle ends | Longitudinal | Represents deceleration |
