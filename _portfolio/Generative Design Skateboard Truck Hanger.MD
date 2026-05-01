@@ -55,7 +55,7 @@ header:
 * Free: axle, motor mount, wheels  
 
 ---
-
+|---|---|
 | [![Turning Clearance](https://img.youtube.com/vi/wKyO-cM58ZA/0.jpg)](https://youtube.com/shorts/wKyO-cM58ZA?si=Mojr8-GFGCTmXXn6) | [![Motor Belt Rotation](https://img.youtube.com/vi/fBsBa_YhUW4/0.jpg)](https://youtube.com/shorts/fBsBa_YhUW4?si=F9TkQBfTNW-uFVhH) |
 | Does not demonstrate rotational clearance about the pivot/kingpin interface since hanger-truck geometry was preserved for this generative study. The generated body presented as an obstacle when trying to insert into the designated pivot. | Validates continuous rotation of the belt-driven system. Confirms proper clearance between hanger geometry and drivetrain components under motion. |
 ---
