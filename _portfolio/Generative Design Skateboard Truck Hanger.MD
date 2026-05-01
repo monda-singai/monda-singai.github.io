@@ -73,7 +73,7 @@ gallery:
 
 # Discussion
 
-Generative design is most effective when paired with powder bed fusion (PBF) because both enable complex geometries that cannot be manufactured using traditional methods. A strong commercial example is General Motors’ generatively designed seat bracket, which reduced an 8-part assembly into a single component while achieving a 40% weight reduction and increased stiffness:
+Generative design is most effective when paired with powder bed fusion because both enable complex geometries that cannot be manufactured using traditional methods. General Motors’ generatively designed a seat bracket, reducing an 8-part assembly into a single component while achieving a 40% weight reduction and increased stiffness https://www.autodesk.com/customer-stories/general-motors-generative-design
 
 ---
 
@@ -87,7 +87,6 @@ Loads in this study were determined by analyzing force flow in the system:
 Improving this process could include:
 * Experimental measurement of belt tension  
 * Dynamic loading conditions (impacts, vibration)  
-* Modeling compliant bushings instead of fixed constraints  
 
 ---
 
