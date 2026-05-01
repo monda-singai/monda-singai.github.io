@@ -67,6 +67,10 @@ gallery:
 
 ---
 
+{% include gallery caption="Physical validation of the generatively designed skateboard hanger." %}
+
+---
+
 # Discussion
 
 Generative design is most effective when paired with powder bed fusion (PBF) because both enable complex geometries that cannot be manufactured using traditional methods. A strong commercial example is General Motors’ generatively designed seat bracket, which reduced an 8-part assembly into a single component while achieving a 40% weight reduction and increased stiffness:
