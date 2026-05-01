@@ -4,15 +4,6 @@ excerpt: "A generatively designed skateboard hanger integrating a motor mount, o
 header:
   image: assets/img/back-assembly.jpeg
   teaser: assets/img/front-part.jpeg
-gallery:
-  - image_path: https://youtube.com/shorts/wKyO-cM58ZA?si=Mojr8-GFGCTmXXn6/0.jpg
-    url: https://youtube.com/shorts/wKyO-cM58ZA?si=Mojr8-GFGCTmXXn6
-    title: "Turning Clearance Validation"
-    caption: "Does not demonstrate rotational clearance about the pivot/kingpin interface since hanger-truck geometry was preserved for this generative study. The generated body presented as an obstacle when trying to insert into the designated pivot."
-  - image_path: https://youtube.com/shorts/fBsBa_YhUW4?si=F9TkQBfTNW-uFVhH/0.jpg
-    url: https://youtube.com/shorts/fBsBa_YhUW4?si=F9TkQBfTNW-uFVhH
-    title: "Motor, Pulley, and Belt Operation"
-    caption: "Validates continuous rotation of the belt-driven system. Confirms proper clearance between hanger geometry and drivetrain components under motion."
 
 ---
 
@@ -67,8 +58,8 @@ gallery:
 
 ---
 
-{% include gallery %}
-
+| [![Turning Clearance](https://img.youtube.com/vi/wKyO-cM58ZA/0.jpg)](https://youtube.com/shorts/wKyO-cM58ZA?si=Mojr8-GFGCTmXXn6) | [![Motor Belt Rotation](https://img.youtube.com/vi/fBsBa_YhUW4/0.jpg)](https://youtube.com/shorts/fBsBa_YhUW4?si=F9TkQBfTNW-uFVhH) |
+| Does not demonstrate rotational clearance about the pivot/kingpin interface since hanger-truck geometry was preserved for this generative study. The generated body presented as an obstacle when trying to insert into the designated pivot. | Validates continuous rotation of the belt-driven system. Confirms proper clearance between hanger geometry and drivetrain components under motion. |
 ---
 
 # Discussion
@@ -90,7 +81,7 @@ Improving this process could include:
 
 ---
 
-The 17-4 PH outcome prioritized weight reduction, producing thinner, more organic structures due to its lower density. In contrast, the AlSi10Mg solution resulted in thicker, more conservative geometries.
+The 17-4 PH outcome prioritized weight reduction, producing thinner, more organic structures due to its lower density. In contrast, the AlSi10Mg solution resulted in thicker, more conservative geometries. I filament printed the aluminum model (after editing analogous features off), though I like the steel model much more.
 * Aluminum → efficiency-driven design  
 * Steel → strength-driven design  
 
