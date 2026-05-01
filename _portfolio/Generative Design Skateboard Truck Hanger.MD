@@ -40,6 +40,10 @@ header:
   </tr>
 </table>
 
+The 17-4 PH outcome prioritized weight reduction, producing thinner, more organic structures due to its lower density. In contrast, the AlSi10Mg solution resulted in thicker, more conservative geometries. I filament printed the aluminum model (after editing analogous features off), though I like the steel model much more.
+* Aluminum → efficiency-driven design (lighter)
+* Steel → strength-driven design (more robust) 
+
 ---
 
 | Load | Magnitude | Location | Direction | Rationale |
@@ -51,10 +55,16 @@ header:
 | Torque (moment) | 5 N·m | Motor interface | About shaft axis | Represents motor output |
 
 ## Constraints
-* Fixed: pivot interface + kingpin/bushing region  
-* Free: axle, motor mount, wheels  
+* Fixed: pivot interface + kingpin/bushing region
 
----
+Loads in this study were determined by analyzing force flow in the system:
+* Rider loads enter through the axle  
+* Motor forces enter through the motor mount  
+* Loads transfer to the deck through the pivot and kingpin  
+
+Improving this process could include:
+* Experimental measurement of belt tension  
+* Dynamic loading conditions (impacts, vibration)
 
 |---|---|
 | [![Turning Clearance](https://img.youtube.com/vi/wKyO-cM58ZA/0.jpg)](https://youtube.com/shorts/wKyO-cM58ZA?si=Mojr8-GFGCTmXXn6) | [![Motor Belt Rotation](https://img.youtube.com/vi/fBsBa_YhUW4/0.jpg)](https://youtube.com/shorts/fBsBa_YhUW4?si=F9TkQBfTNW-uFVhH) |
@@ -64,30 +74,7 @@ header:
 
 # Discussion
 
-Generative design is most effective when paired with powder bed fusion because both enable complex geometries that cannot be manufactured using traditional methods. General Motors’ generatively designed a seat bracket, reducing an 8-part assembly into a single component while achieving a 40% weight reduction and increased stiffness https://www.autodesk.com/customer-stories/general-motors-generative-design
-
----
-
-Generative design results are entirely dependent on applied loads. If loads are unrealistic or incomplete, the resulting geometry will not reflect real-world performance.
-
-Loads in this study were determined by analyzing force flow in the system:
-* Rider loads enter through the axle  
-* Motor forces enter through the motor mount  
-* Loads transfer to the deck through the pivot and kingpin  
-
-Improving this process could include:
-* Experimental measurement of belt tension  
-* Dynamic loading conditions (impacts, vibration)  
-
----
-
-The 17-4 PH outcome prioritized weight reduction, producing thinner, more organic structures due to its lower density. In contrast, the AlSi10Mg solution resulted in thicker, more conservative geometries. I filament printed the aluminum model (after editing analogous features off), though I like the steel model much more.
-* Aluminum → efficiency-driven design (lighter)
-* Steel → strength-driven design (more robust) 
-
----
-
-Generative design is highly effective for identifying efficient load paths and reducing unnecessary material, but its usefulness depends heavily on input quality.
+Generative design in theory is highly effective for identifying efficient load paths and reducing unnecessary material, but its usefulness depends heavily on input quality. Generative design in practice is most effective when paired with powder bed fusion because both enable complex geometries that cannot be manufactured using traditional methods. General Motors’ generatively designed a seat bracket, reducing an 8-part assembly into a single component while achieving a 40% weight reduction and increased stiffness https://www.autodesk.com/customer-stories/general-motors-generative-design
 
 ## Strengths:
 * Produces lightweight, optimized structures  
@@ -103,3 +90,7 @@ Generative design is highly effective for identifying efficient load paths and r
 * Weight-critical components which do not need to be mass-produced   
 * Complex structural brackets / mounts  
 * Robotics and electromechanical systems  
+
+## Avoid:
+* High-volume manufacturing with strict cost constraints
+* Designs requiring simple, easily machinable geometry
