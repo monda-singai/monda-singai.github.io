@@ -15,11 +15,7 @@ gallery:
     caption: "Validates continuous rotation of the belt-driven system. Confirms proper clearance between hanger geometry and drivetrain components under motion."
 ---
 
-This project applies generative design to develop a lightweight skateboard truck hanger with an integrated motor mount. The objective was to consolidate structural and drivetrain components into a single optimized geometry while maintaining full assembly functionality, including turning clearance and belt-driven motion.
-
----
-
-## Outcomes
+# Outcomes
 
 <table>
   <tr>
@@ -64,20 +60,20 @@ This project applies generative design to develop a lightweight skateboard truck
 | Belt Force | 250 N | Motor mount | Along belt path | Simulates belt tension |
 | Motor Torque | 4 N·m | Motor interface | About shaft axis | Represents motor output |
 
-**Constraints**
-- Fixed: pivot interface + kingpin/bushing region  
-- Free: axle, motor mount, wheels  
+## Constraints
+* Fixed: pivot interface + kingpin/bushing region  
+* Free: axle, motor mount, wheels  
 
-**Load Cases**
-- Rider  
-- Turning  
-- Braking  
-- Belt tension  
-- Motor torque  
+## Load Cases
+* Rider  
+* Turning  
+* Braking  
+* Belt tension  
+* Motor torque  
 
 ---
 
-## Discussion
+# Discussion
 
 Generative design is most effective when paired with powder bed fusion (PBF) because both enable complex geometries that cannot be manufactured using traditional methods. A strong commercial example is General Motors’ generatively designed seat bracket, which reduced an 8-part assembly into a single component while achieving a 40% weight reduction and increased stiffness:
 
@@ -86,39 +82,39 @@ Generative design is most effective when paired with powder bed fusion (PBF) bec
 Generative design results are entirely dependent on applied loads. If loads are unrealistic or incomplete, the resulting geometry will not reflect real-world performance.
 
 Loads in this study were determined by analyzing force flow in the system:
-- Rider loads enter through the axle  
-- Motor forces enter through the motor mount  
-- Loads transfer to the deck through the pivot and kingpin  
+* Rider loads enter through the axle  
+* Motor forces enter through the motor mount  
+* Loads transfer to the deck through the pivot and kingpin  
 
 Improving this process could include:
-- Experimental measurement of belt tension  
-- Dynamic loading conditions (impacts, vibration)  
-- Modeling compliant bushings instead of fixed constraints  
+* Experimental measurement of belt tension  
+* Dynamic loading conditions (impacts, vibration)  
+* Modeling compliant bushings instead of fixed constraints  
 
 ---
 
 The AlSi10Mg outcome prioritized weight reduction, producing thinner, more organic structures due to its lower density. In contrast, the 17-4 PH solution resulted in thicker, more conservative geometries, reflecting its higher strength and stiffness.
 
 This comparison highlights how generative design adapts geometry based on material properties:
-- Aluminum → efficiency-driven design  
-- Steel → strength-driven design  
+* Aluminum → efficiency-driven design  
+* Steel → strength-driven design  
 
 ---
 
 Generative design is highly effective for identifying efficient load paths and reducing unnecessary material, but its usefulness depends heavily on input quality.
 
-**Strengths:**
-- Produces lightweight, optimized structures  
-- Enables integration of multiple components  
-- Explores a large design space quickly  
+## Strengths:
+* Produces lightweight, optimized structures  
+* Enables integration of multiple components  
+* Explores a large design space quickly  
 
-**Limitations:**
-- Highly sensitive to load and constraint assumptions  
-- Results may be difficult to manufacture or validate  
-- Requires post-processing to remove impractical features  
-- Does not inherently account for real-world variability (fatigue, wear, tolerances)  
+## Limitations:
+* Highly sensitive to load and constraint assumptions  
+* Results may be difficult to manufacture or validate  
+* Requires post-processing to remove impractical features  
+* Does not inherently account for real-world variability (fatigue, wear, tolerances)  
 
-**Most useful applications:**
-- Aerospace (weight-critical components)  
-- Automotive (structural brackets, mounts)  
-- Robotics and electromechanical systems  
+## Most useful applications:
+* Aerospace (weight-critical components)  
+* Automotive (structural brackets, mounts)  
+* Robotics and electromechanical systems  
